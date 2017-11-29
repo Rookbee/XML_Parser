@@ -1,0 +1,4162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testSuiteResults>
+  <testSuite>
+    <startTime>12:18:35</startTime>
+    <status>FINISHED</status>
+    <testSuiteName>AB_HappyPath</testSuiteName>
+    <timeTaken>17878</timeTaken>
+    <testRunnerResults>
+      <testCase>
+        <startTime>12:18:35</startTime>
+        <status>FINISHED</status>
+        <testCaseId>1d800f0d-a24e-4a5c-95e7-4977f626a0e9</testCaseId>
+        <testCaseName>Scenario_1d1v</testCaseName>
+        <timeTaken>30657</timeTaken>
+        <testStepResults>
+          <result>
+            <message>Step 1 [DataSource: Random user data] OK: took 0 ms</message>
+            <name>DataSource: Random user data</name>
+            <order>2</order>
+            <started>12:18:35.767</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 2 [Properties: Store the ressources] OK: took 0 ms</message>
+            <name>Properties: Store the ressources</name>
+            <order>3</order>
+            <started>12:18:35.771</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 3 [Given: Configure the SOAP create a quote] OK: took 444 ms</message>
+            <name>Given: Configure the SOAP create a quote</name>
+            <order>4</order>
+            <started>12:18:35.771</started>
+            <status>OK</status>
+            <timeTaken>444</timeTaken>
+          </result>
+          <result>
+            <message>Step 4 [Then: Validate response [create quote]] OK: took 1 ms</message>
+            <name>Then: Validate response [create quote]</name>
+            <order>5</order>
+            <started>12:18:36.361</started>
+            <status>OK</status>
+            <timeTaken>1</timeTaken>
+          </result>
+          <result>
+            <message>Step 5 [Setup: Get the agreement number and policyVersionId] OK: took 1 ms</message>
+            <name>Setup: Get the agreement number and policyVersionId</name>
+            <order>6</order>
+            <started>12:18:36.363</started>
+            <status>OK</status>
+            <timeTaken>1</timeTaken>
+          </result>
+          <result>
+            <message>Step 6 [Setup: Set the agreementNumber and policyVersionId [add vehicle]] OK: took 0 ms</message>
+            <name>Setup: Set the agreementNumber and policyVersionId [add vehicle]</name>
+            <order>7</order>
+            <started>12:18:36.365</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 7 [Given: Configure the SOAP save [add vehicle]] OK: took 311 ms</message>
+            <name>Given: Configure the SOAP save [add vehicle]</name>
+            <order>8</order>
+            <started>12:18:36.366</started>
+            <status>OK</status>
+            <timeTaken>311</timeTaken>
+          </result>
+          <result>
+            <message>Step 8 [Then: Validate response [add vehicle]] OK: took 0 ms</message>
+            <name>Then: Validate response [add vehicle]</name>
+            <order>9</order>
+            <started>12:18:36.679</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 9 [Setup: Set the agreementNumber and policyVersionId [add driver]] OK: took 1 ms</message>
+            <name>Setup: Set the agreementNumber and policyVersionId [add driver]</name>
+            <order>10</order>
+            <started>12:18:36.681</started>
+            <status>OK</status>
+            <timeTaken>1</timeTaken>
+          </result>
+          <result>
+            <message>Step 10 [Given: Configure the SOAP save [add driver]] OK: took 2139 ms</message>
+            <name>Given: Configure the SOAP save [add driver]</name>
+            <order>11</order>
+            <started>12:18:36.683</started>
+            <status>OK</status>
+            <timeTaken>2139</timeTaken>
+          </result>
+          <result>
+            <message>Step 11 [Then: Validate response [add driver]] OK: took 1 ms</message>
+            <name>Then: Validate response [add driver]</name>
+            <order>12</order>
+            <started>12:18:38.825</started>
+            <status>OK</status>
+            <timeTaken>1</timeTaken>
+          </result>
+          <result>
+            <message>Step 12 [Setup: Set the ressources [get offer]] OK: took 3 ms</message>
+            <name>Setup: Set the ressources [get offer]</name>
+            <order>13</order>
+            <started>12:18:38.827</started>
+            <status>OK</status>
+            <timeTaken>3</timeTaken>
+          </result>
+          <result>
+            <message>Step 13 [Given: Configure the SOAP assign and get offer] OK: took 1753 ms</message>
+            <name>Given: Configure the SOAP assign and get offer</name>
+            <order>14</order>
+            <started>12:18:38.831</started>
+            <status>OK</status>
+            <timeTaken>1753</timeTaken>
+          </result>
+          <result>
+            <message>Step 14 [Given: Configure the SOAP assign and get offer] OK: took 12964 ms</message>
+            <name>Given: Configure the SOAP assign and get offer</name>
+            <order>15</order>
+            <started>12:18:40.657</started>
+            <status>OK</status>
+            <timeTaken>12964</timeTaken>
+          </result>
+          <result>
+            <message>Step 15 [Then: Validate response and price] OK: took 13039 ms</message>
+            <name>Then: Validate response and price</name>
+            <order>16</order>
+            <started>12:18:40.587</started>
+            <status>OK</status>
+            <timeTaken>13039</timeTaken>
+          </result>
+        </testStepResults>
+        <testStepParameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource: Random user data</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/properties_step.png</iconPath>
+            <testStepName>Properties: Store the ressources</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP create a quote</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate response [create quote]</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: Get the agreement number and policyVersionId</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: Set the agreementNumber and policyVersionId [add vehicle]</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP save [add vehicle]</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate response [add vehicle]</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: Set the agreementNumber and policyVersionId [add driver]</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP save [add driver]</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate response [add driver]</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: Set the ressources [get offer]</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP assign and get offer</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate response and price</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate response and price</testStepName>
+          </parameters>
+        </testStepParameters>
+        <failedTestSteps/>
+      </testCase>
+    </testRunnerResults>
+  </testSuite>
+  <testSuite>
+    <startTime>12:18:53</startTime>
+    <status>FINISHED</status>
+    <testSuiteName>AB_Endpoints</testSuiteName>
+    <timeTaken>3986</timeTaken>
+    <testRunnerResults>
+      <testCase>
+        <startTime>12:18:53</startTime>
+        <status>FINISHED</status>
+        <testCaseId>84cfde72-b4f8-48b4-9ab0-5ec3b12f2b0b</testCaseId>
+        <testCaseName>getVehicleMakeList</testCaseName>
+        <timeTaken>863</timeTaken>
+        <testStepResults>
+          <result>
+            <message>Step 1 [DataSource: Condition values] OK: took 53 ms</message>
+            <name>DataSource: Condition values</name>
+            <order>2</order>
+            <started>12:18:53.708</started>
+            <status>OK</status>
+            <timeTaken>53</timeTaken>
+          </result>
+          <result>
+            <message>Step 2 [Setup: getVehicleMakeList] OK: took 1 ms</message>
+            <name>Setup: getVehicleMakeList</name>
+            <order>3</order>
+            <started>12:18:53.768</started>
+            <status>OK</status>
+            <timeTaken>1</timeTaken>
+          </result>
+          <result>
+            <message>Step 3 [Given: Configure the SOAP get vehicle make list] OK: took 23 ms</message>
+            <name>Given: Configure the SOAP get vehicle make list</name>
+            <order>4</order>
+            <started>12:18:53.770</started>
+            <status>OK</status>
+            <timeTaken>23</timeTaken>
+          </result>
+          <result>
+            <message>Step 4 [Then: Validate the status] OK: took 0 ms</message>
+            <name>Then: Validate the status</name>
+            <order>5</order>
+            <started>12:18:53.797</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 5 [Then: Validate the returned make] OK: took 0 ms</message>
+            <name>Then: Validate the returned make</name>
+            <order>6</order>
+            <started>12:18:53.798</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 6 [DataSource Loop] OK: took 0 ms
+ -> Data Row 1</message>
+            <name>DataSource Loop</name>
+            <order>7</order>
+            <started>12:18:53.799</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 7 [Setup: getVehicleMakeList] OK: took 0 ms</message>
+            <name>Setup: getVehicleMakeList</name>
+            <order>8</order>
+            <started>12:18:53.800</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 8 [Given: Configure the SOAP get vehicle make list] OK: took 19 ms</message>
+            <name>Given: Configure the SOAP get vehicle make list</name>
+            <order>9</order>
+            <started>12:18:53.801</started>
+            <status>OK</status>
+            <timeTaken>19</timeTaken>
+          </result>
+          <result>
+            <message>Step 9 [Then: Validate the status] OK: took 0 ms</message>
+            <name>Then: Validate the status</name>
+            <order>10</order>
+            <started>12:18:53.822</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 10 [Then: Validate the returned make] OK: took 0 ms</message>
+            <name>Then: Validate the returned make</name>
+            <order>11</order>
+            <started>12:18:53.824</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 11 [DataSource Loop] OK: took 0 ms
+ -> Data Row 2</message>
+            <name>DataSource Loop</name>
+            <order>12</order>
+            <started>12:18:53.824</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 12 [Setup: getVehicleMakeList] OK: took 0 ms</message>
+            <name>Setup: getVehicleMakeList</name>
+            <order>13</order>
+            <started>12:18:53.825</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 13 [Given: Configure the SOAP get vehicle make list] OK: took 31 ms</message>
+            <name>Given: Configure the SOAP get vehicle make list</name>
+            <order>14</order>
+            <started>12:18:53.827</started>
+            <status>OK</status>
+            <timeTaken>31</timeTaken>
+          </result>
+          <result>
+            <message>Step 14 [Then: Validate the status] OK: took 1 ms</message>
+            <name>Then: Validate the status</name>
+            <order>15</order>
+            <started>12:18:53.860</started>
+            <status>OK</status>
+            <timeTaken>1</timeTaken>
+          </result>
+          <result>
+            <message>Step 15 [Then: Validate the returned make] OK: took 15 ms</message>
+            <name>Then: Validate the returned make</name>
+            <order>16</order>
+            <started>12:18:53.862</started>
+            <status>OK</status>
+            <timeTaken>15</timeTaken>
+          </result>
+          <result>
+            <message>Step 16 [DataSource Loop] OK: took 0 ms
+ -> Data Row 3</message>
+            <name>DataSource Loop</name>
+            <order>17</order>
+            <started>12:18:53.878</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 17 [Setup: getVehicleMakeList] OK: took 0 ms</message>
+            <name>Setup: getVehicleMakeList</name>
+            <order>18</order>
+            <started>12:18:53.879</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 18 [Given: Configure the SOAP get vehicle make list] OK: took 30 ms</message>
+            <name>Given: Configure the SOAP get vehicle make list</name>
+            <order>19</order>
+            <started>12:18:53.880</started>
+            <status>OK</status>
+            <timeTaken>30</timeTaken>
+          </result>
+          <result>
+            <message>Step 19 [Then: Validate the status] OK: took 1 ms</message>
+            <name>Then: Validate the status</name>
+            <order>20</order>
+            <started>12:18:53.914</started>
+            <status>OK</status>
+            <timeTaken>1</timeTaken>
+          </result>
+          <result>
+            <message>Step 20 [Then: Validate the returned make] OK: took 18 ms</message>
+            <name>Then: Validate the returned make</name>
+            <order>21</order>
+            <started>12:18:53.916</started>
+            <status>OK</status>
+            <timeTaken>18</timeTaken>
+          </result>
+          <result>
+            <message>Step 21 [DataSource Loop] OK: took 0 ms
+ -> Data Row 4</message>
+            <name>DataSource Loop</name>
+            <order>22</order>
+            <started>12:18:53.936</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 22 [Setup: getVehicleMakeList] OK: took 1 ms</message>
+            <name>Setup: getVehicleMakeList</name>
+            <order>23</order>
+            <started>12:18:53.937</started>
+            <status>OK</status>
+            <timeTaken>1</timeTaken>
+          </result>
+          <result>
+            <message>Step 23 [Given: Configure the SOAP get vehicle make list] OK: took 31 ms</message>
+            <name>Given: Configure the SOAP get vehicle make list</name>
+            <order>24</order>
+            <started>12:18:53.939</started>
+            <status>OK</status>
+            <timeTaken>31</timeTaken>
+          </result>
+          <result>
+            <message>Step 24 [Then: Validate the status] OK: took 2 ms</message>
+            <name>Then: Validate the status</name>
+            <order>25</order>
+            <started>12:18:53.972</started>
+            <status>OK</status>
+            <timeTaken>2</timeTaken>
+          </result>
+          <result>
+            <message>Step 25 [Then: Validate the returned make] OK: took 20 ms</message>
+            <name>Then: Validate the returned make</name>
+            <order>26</order>
+            <started>12:18:53.975</started>
+            <status>OK</status>
+            <timeTaken>20</timeTaken>
+          </result>
+          <result>
+            <message>Step 26 [DataSource Loop] OK: took 0 ms
+ -> Data Row 5</message>
+            <name>DataSource Loop</name>
+            <order>27</order>
+            <started>12:18:53.996</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 27 [Setup: getVehicleMakeList] OK: took 0 ms</message>
+            <name>Setup: getVehicleMakeList</name>
+            <order>28</order>
+            <started>12:18:53.997</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 28 [Given: Configure the SOAP get vehicle make list] OK: took 39 ms</message>
+            <name>Given: Configure the SOAP get vehicle make list</name>
+            <order>29</order>
+            <started>12:18:53.998</started>
+            <status>OK</status>
+            <timeTaken>39</timeTaken>
+          </result>
+          <result>
+            <message>Step 29 [Then: Validate the status] OK: took 2 ms</message>
+            <name>Then: Validate the status</name>
+            <order>30</order>
+            <started>12:18:54.039</started>
+            <status>OK</status>
+            <timeTaken>2</timeTaken>
+          </result>
+          <result>
+            <message>Step 30 [Then: Validate the returned make] OK: took 22 ms</message>
+            <name>Then: Validate the returned make</name>
+            <order>31</order>
+            <started>12:18:54.042</started>
+            <status>OK</status>
+            <timeTaken>22</timeTaken>
+          </result>
+          <result>
+            <message>Step 31 [DataSource Loop] OK: took 0 ms
+ -> Data Row 6</message>
+            <name>DataSource Loop</name>
+            <order>32</order>
+            <started>12:18:54.065</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 32 [Setup: getVehicleMakeList] OK: took 0 ms</message>
+            <name>Setup: getVehicleMakeList</name>
+            <order>33</order>
+            <started>12:18:54.066</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 33 [Given: Configure the SOAP get vehicle make list] OK: took 28 ms</message>
+            <name>Given: Configure the SOAP get vehicle make list</name>
+            <order>34</order>
+            <started>12:18:54.067</started>
+            <status>OK</status>
+            <timeTaken>28</timeTaken>
+          </result>
+          <result>
+            <message>Step 34 [Then: Validate the status] OK: took 3 ms</message>
+            <name>Then: Validate the status</name>
+            <order>35</order>
+            <started>12:18:54.097</started>
+            <status>OK</status>
+            <timeTaken>3</timeTaken>
+          </result>
+          <result>
+            <message>Step 35 [Then: Validate the returned make] OK: took 51 ms</message>
+            <name>Then: Validate the returned make</name>
+            <order>36</order>
+            <started>12:18:54.100</started>
+            <status>OK</status>
+            <timeTaken>51</timeTaken>
+          </result>
+          <result>
+            <message>Step 36 [DataSource Loop] OK: took 0 ms
+ -> Data Row 7</message>
+            <name>DataSource Loop</name>
+            <order>37</order>
+            <started>12:18:54.152</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 37 [Setup: getVehicleMakeList] OK: took 0 ms</message>
+            <name>Setup: getVehicleMakeList</name>
+            <order>38</order>
+            <started>12:18:54.153</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 38 [Given: Configure the SOAP get vehicle make list] OK: took 18 ms</message>
+            <name>Given: Configure the SOAP get vehicle make list</name>
+            <order>39</order>
+            <started>12:18:54.155</started>
+            <status>OK</status>
+            <timeTaken>18</timeTaken>
+          </result>
+          <result>
+            <message>Step 39 [Then: Validate the status] OK: took 0 ms</message>
+            <name>Then: Validate the status</name>
+            <order>40</order>
+            <started>12:18:54.174</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 40 [Then: Validate the returned make] OK: took 0 ms</message>
+            <name>Then: Validate the returned make</name>
+            <order>41</order>
+            <started>12:18:54.176</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 41 [DataSource Loop] OK: took 0 ms
+ -> Data Row 8</message>
+            <name>DataSource Loop</name>
+            <order>42</order>
+            <started>12:18:54.176</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 42 [Setup: getVehicleMakeList] OK: took 0 ms</message>
+            <name>Setup: getVehicleMakeList</name>
+            <order>43</order>
+            <started>12:18:54.177</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 43 [Given: Configure the SOAP get vehicle make list] OK: took 26 ms</message>
+            <name>Given: Configure the SOAP get vehicle make list</name>
+            <order>44</order>
+            <started>12:18:54.178</started>
+            <status>OK</status>
+            <timeTaken>26</timeTaken>
+          </result>
+          <result>
+            <message>Step 44 [Then: Validate the status] OK: took 1 ms</message>
+            <name>Then: Validate the status</name>
+            <order>45</order>
+            <started>12:18:54.206</started>
+            <status>OK</status>
+            <timeTaken>1</timeTaken>
+          </result>
+          <result>
+            <message>Step 45 [Then: Validate the returned make] OK: took 0 ms</message>
+            <name>Then: Validate the returned make</name>
+            <order>46</order>
+            <started>12:18:54.208</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 46 [DataSource Loop] OK: took 0 ms
+ -> Data Row 9</message>
+            <name>DataSource Loop</name>
+            <order>47</order>
+            <started>12:18:54.209</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 47 [Setup: getVehicleMakeList] OK: took 0 ms</message>
+            <name>Setup: getVehicleMakeList</name>
+            <order>48</order>
+            <started>12:18:54.210</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 48 [Given: Configure the SOAP get vehicle make list] OK: took 62 ms</message>
+            <name>Given: Configure the SOAP get vehicle make list</name>
+            <order>49</order>
+            <started>12:18:54.211</started>
+            <status>OK</status>
+            <timeTaken>62</timeTaken>
+          </result>
+          <result>
+            <message>Step 49 [Then: Validate the status] OK: took 0 ms</message>
+            <name>Then: Validate the status</name>
+            <order>50</order>
+            <started>12:18:54.275</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 50 [Then: Validate the returned make] OK: took 0 ms</message>
+            <name>Then: Validate the returned make</name>
+            <order>51</order>
+            <started>12:18:54.276</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 51 [DataSource Loop] OK: took 0 ms
+ -> Data Row 10</message>
+            <name>DataSource Loop</name>
+            <order>52</order>
+            <started>12:18:54.277</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 52 [Setup: getVehicleMakeList] OK: took 0 ms</message>
+            <name>Setup: getVehicleMakeList</name>
+            <order>53</order>
+            <started>12:18:54.278</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 53 [Given: Configure the SOAP get vehicle make list] OK: took 26 ms</message>
+            <name>Given: Configure the SOAP get vehicle make list</name>
+            <order>54</order>
+            <started>12:18:54.279</started>
+            <status>OK</status>
+            <timeTaken>26</timeTaken>
+          </result>
+          <result>
+            <message>Step 54 [Then: Validate the status] OK: took 0 ms</message>
+            <name>Then: Validate the status</name>
+            <order>55</order>
+            <started>12:18:54.308</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 55 [Then: Validate the returned make] OK: took 0 ms</message>
+            <name>Then: Validate the returned make</name>
+            <order>56</order>
+            <started>12:18:54.310</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 56 [DataSource Loop] OK: took 0 ms
+ -> Data Row 11</message>
+            <name>DataSource Loop</name>
+            <order>57</order>
+            <started>12:18:54.311</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 57 [Setup: getVehicleMakeList] OK: took 0 ms</message>
+            <name>Setup: getVehicleMakeList</name>
+            <order>58</order>
+            <started>12:18:54.311</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 58 [Given: Configure the SOAP get vehicle make list] OK: took 21 ms</message>
+            <name>Given: Configure the SOAP get vehicle make list</name>
+            <order>59</order>
+            <started>12:18:54.312</started>
+            <status>OK</status>
+            <timeTaken>21</timeTaken>
+          </result>
+          <result>
+            <message>Step 59 [Then: Validate the status] OK: took 1 ms</message>
+            <name>Then: Validate the status</name>
+            <order>60</order>
+            <started>12:18:54.336</started>
+            <status>OK</status>
+            <timeTaken>1</timeTaken>
+          </result>
+          <result>
+            <message>Step 60 [Then: Validate the returned make] OK: took 15 ms</message>
+            <name>Then: Validate the returned make</name>
+            <order>61</order>
+            <started>12:18:54.338</started>
+            <status>OK</status>
+            <timeTaken>15</timeTaken>
+          </result>
+          <result>
+            <message>Step 61 [DataSource Loop] OK: took 0 ms
+ -> Data Row 12</message>
+            <name>DataSource Loop</name>
+            <order>62</order>
+            <started>12:18:54.354</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 62 [Setup: getVehicleMakeList] OK: took 0 ms</message>
+            <name>Setup: getVehicleMakeList</name>
+            <order>63</order>
+            <started>12:18:54.355</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 63 [Given: Configure the SOAP get vehicle make list] OK: took 33 ms</message>
+            <name>Given: Configure the SOAP get vehicle make list</name>
+            <order>64</order>
+            <started>12:18:54.358</started>
+            <status>OK</status>
+            <timeTaken>33</timeTaken>
+          </result>
+          <result>
+            <message>Step 64 [Then: Validate the status] OK: took 1 ms</message>
+            <name>Then: Validate the status</name>
+            <order>65</order>
+            <started>12:18:54.394</started>
+            <status>OK</status>
+            <timeTaken>1</timeTaken>
+          </result>
+          <result>
+            <message>Step 65 [Then: Validate the returned make] OK: took 20 ms</message>
+            <name>Then: Validate the returned make</name>
+            <order>66</order>
+            <started>12:18:54.396</started>
+            <status>OK</status>
+            <timeTaken>20</timeTaken>
+          </result>
+          <result>
+            <message>Step 66 [DataSource Loop] OK: took 0 ms
+ -> Data Row 13</message>
+            <name>DataSource Loop</name>
+            <order>67</order>
+            <started>12:18:54.417</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 67 [Setup: getVehicleMakeList] OK: took 0 ms</message>
+            <name>Setup: getVehicleMakeList</name>
+            <order>68</order>
+            <started>12:18:54.418</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 68 [Given: Configure the SOAP get vehicle make list] OK: took 34 ms</message>
+            <name>Given: Configure the SOAP get vehicle make list</name>
+            <order>69</order>
+            <started>12:18:54.420</started>
+            <status>OK</status>
+            <timeTaken>34</timeTaken>
+          </result>
+          <result>
+            <message>Step 69 [Then: Validate the status] OK: took 1 ms</message>
+            <name>Then: Validate the status</name>
+            <order>70</order>
+            <started>12:18:54.456</started>
+            <status>OK</status>
+            <timeTaken>1</timeTaken>
+          </result>
+          <result>
+            <message>Step 70 [Then: Validate the returned make] OK: took 21 ms</message>
+            <name>Then: Validate the returned make</name>
+            <order>71</order>
+            <started>12:18:54.458</started>
+            <status>OK</status>
+            <timeTaken>21</timeTaken>
+          </result>
+          <result>
+            <message>Step 71 [DataSource Loop] OK: took 0 ms
+ -> Data Row 14</message>
+            <name>DataSource Loop</name>
+            <order>72</order>
+            <started>12:18:54.480</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 72 [Setup: getVehicleMakeList] OK: took 0 ms</message>
+            <name>Setup: getVehicleMakeList</name>
+            <order>73</order>
+            <started>12:18:54.481</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 73 [Given: Configure the SOAP get vehicle make list] OK: took 31 ms</message>
+            <name>Given: Configure the SOAP get vehicle make list</name>
+            <order>74</order>
+            <started>12:18:54.483</started>
+            <status>OK</status>
+            <timeTaken>31</timeTaken>
+          </result>
+          <result>
+            <message>Step 74 [Then: Validate the status] OK: took 2 ms</message>
+            <name>Then: Validate the status</name>
+            <order>75</order>
+            <started>12:18:54.516</started>
+            <status>OK</status>
+            <timeTaken>2</timeTaken>
+          </result>
+          <result>
+            <message>Step 75 [Then: Validate the returned make] OK: took 26 ms</message>
+            <name>Then: Validate the returned make</name>
+            <order>76</order>
+            <started>12:18:54.519</started>
+            <status>OK</status>
+            <timeTaken>26</timeTaken>
+          </result>
+          <result>
+            <message>Step 76 [DataSource Loop] OK: took 0 ms
+ -> Data Row 15</message>
+            <name>DataSource Loop</name>
+            <order>77</order>
+            <started>12:18:54.547</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 77 [Setup: getVehicleMakeList] OK: took 0 ms</message>
+            <name>Setup: getVehicleMakeList</name>
+            <order>78</order>
+            <started>12:18:54.547</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 78 [Given: Configure the SOAP get vehicle make list] OK: took 27 ms</message>
+            <name>Given: Configure the SOAP get vehicle make list</name>
+            <order>79</order>
+            <started>12:18:54.549</started>
+            <status>OK</status>
+            <timeTaken>27</timeTaken>
+          </result>
+          <result>
+            <message>Step 79 [Then: Validate the status] OK: took 2 ms</message>
+            <name>Then: Validate the status</name>
+            <order>80</order>
+            <started>12:18:54.578</started>
+            <status>OK</status>
+            <timeTaken>2</timeTaken>
+          </result>
+          <result>
+            <message>Step 80 [Then: Validate the returned make] OK: took 47 ms</message>
+            <name>Then: Validate the returned make</name>
+            <order>81</order>
+            <started>12:18:54.581</started>
+            <status>OK</status>
+            <timeTaken>47</timeTaken>
+          </result>
+          <result>
+            <message>Step 81 [DataSource Loop] OK: took 0 ms
+ -> Data Row 16</message>
+            <name>DataSource Loop</name>
+            <order>82</order>
+            <started>12:18:54.629</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 82 [Setup: getVehicleMakeList] OK: took 0 ms</message>
+            <name>Setup: getVehicleMakeList</name>
+            <order>83</order>
+            <started>12:18:54.630</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 83 [Given: Configure the SOAP get vehicle make list] OK: took 27 ms</message>
+            <name>Given: Configure the SOAP get vehicle make list</name>
+            <order>84</order>
+            <started>12:18:54.631</started>
+            <status>OK</status>
+            <timeTaken>27</timeTaken>
+          </result>
+          <result>
+            <message>Step 84 [Then: Validate the status] OK: took 0 ms</message>
+            <name>Then: Validate the status</name>
+            <order>85</order>
+            <started>12:18:54.660</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 85 [Then: Validate the returned make] OK: took 0 ms</message>
+            <name>Then: Validate the returned make</name>
+            <order>86</order>
+            <started>12:18:54.661</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 86 [DataSource Loop] OK: took 0 ms
+ -> Data Row 17</message>
+            <name>DataSource Loop</name>
+            <order>87</order>
+            <started>12:18:54.662</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 87 [Setup: getVehicleMakeList] OK: took 0 ms</message>
+            <name>Setup: getVehicleMakeList</name>
+            <order>88</order>
+            <started>12:18:54.663</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 88 [Given: Configure the SOAP get vehicle make list] OK: took 30 ms</message>
+            <name>Given: Configure the SOAP get vehicle make list</name>
+            <order>89</order>
+            <started>12:18:54.664</started>
+            <status>OK</status>
+            <timeTaken>30</timeTaken>
+          </result>
+          <result>
+            <message>Step 89 [Then: Validate the status] OK: took 0 ms</message>
+            <name>Then: Validate the status</name>
+            <order>90</order>
+            <started>12:18:54.696</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 90 [Then: Validate the returned make] OK: took 0 ms</message>
+            <name>Then: Validate the returned make</name>
+            <order>91</order>
+            <started>12:18:54.697</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 91 [DataSource Loop] OK: took 0 ms
+ -> Data Row 18</message>
+            <name>DataSource Loop</name>
+            <order>92</order>
+            <started>12:18:54.698</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+        </testStepResults>
+        <testStepParameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource: Condition values</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getVehicleMakeList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get vehicle make list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the returned make</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getVehicleMakeList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get vehicle make list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the returned make</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getVehicleMakeList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get vehicle make list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the returned make</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getVehicleMakeList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get vehicle make list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the returned make</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getVehicleMakeList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get vehicle make list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the returned make</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getVehicleMakeList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get vehicle make list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the returned make</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getVehicleMakeList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get vehicle make list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the returned make</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getVehicleMakeList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get vehicle make list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the returned make</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getVehicleMakeList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get vehicle make list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the returned make</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getVehicleMakeList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get vehicle make list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the returned make</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getVehicleMakeList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get vehicle make list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the returned make</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getVehicleMakeList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get vehicle make list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the returned make</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getVehicleMakeList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get vehicle make list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the returned make</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getVehicleMakeList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get vehicle make list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the returned make</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getVehicleMakeList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get vehicle make list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the returned make</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getVehicleMakeList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get vehicle make list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the returned make</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getVehicleMakeList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get vehicle make list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the returned make</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getVehicleMakeList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get vehicle make list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the returned make</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop</testStepName>
+          </parameters>
+        </testStepParameters>
+        <failedTestSteps/>
+      </testCase>
+      <testCase>
+        <startTime>12:18:54</startTime>
+        <status>FINISHED</status>
+        <testCaseId>910aac5f-f9fd-4bef-acce-7c61c8708ef8</testCaseId>
+        <testCaseName>getVehicleModelList</testCaseName>
+        <timeTaken>198</timeTaken>
+        <testStepResults>
+          <result>
+            <message>Step 1 [DataSource: Condition values] OK: took 10 ms</message>
+            <name>DataSource: Condition values</name>
+            <order>2</order>
+            <started>12:18:54.705</started>
+            <status>OK</status>
+            <timeTaken>10</timeTaken>
+          </result>
+          <result>
+            <message>Step 2 [Setup: getVehicleModelList] OK: took 2 ms</message>
+            <name>Setup: getVehicleModelList</name>
+            <order>3</order>
+            <started>12:18:54.716</started>
+            <status>OK</status>
+            <timeTaken>2</timeTaken>
+          </result>
+          <result>
+            <message>Step 3 [Given: Configure the SOAP get vehicle model list] OK: took 30 ms</message>
+            <name>Given: Configure the SOAP get vehicle model list</name>
+            <order>4</order>
+            <started>12:18:54.719</started>
+            <status>OK</status>
+            <timeTaken>30</timeTaken>
+          </result>
+          <result>
+            <message>Step 4 [Then: Validate the status] OK: took 2 ms</message>
+            <name>Then: Validate the status</name>
+            <order>5</order>
+            <started>12:18:54.753</started>
+            <status>OK</status>
+            <timeTaken>2</timeTaken>
+          </result>
+          <result>
+            <message>Step 5 [Then: Validate the returned model] OK: took 1 ms</message>
+            <name>Then: Validate the returned model</name>
+            <order>6</order>
+            <started>12:18:54.757</started>
+            <status>OK</status>
+            <timeTaken>1</timeTaken>
+          </result>
+          <result>
+            <message>Step 6 [DataSource Loop] OK: took 0 ms
+ -> Data Row 1</message>
+            <name>DataSource Loop</name>
+            <order>7</order>
+            <started>12:18:54.759</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 7 [Setup: getVehicleModelList] OK: took 0 ms</message>
+            <name>Setup: getVehicleModelList</name>
+            <order>8</order>
+            <started>12:18:54.760</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 8 [Given: Configure the SOAP get vehicle model list] OK: took 35 ms</message>
+            <name>Given: Configure the SOAP get vehicle model list</name>
+            <order>9</order>
+            <started>12:18:54.761</started>
+            <status>OK</status>
+            <timeTaken>35</timeTaken>
+          </result>
+          <result>
+            <message>Step 9 [Then: Validate the status] OK: took 1 ms</message>
+            <name>Then: Validate the status</name>
+            <order>10</order>
+            <started>12:18:54.799</started>
+            <status>OK</status>
+            <timeTaken>1</timeTaken>
+          </result>
+          <result>
+            <message>Step 10 [Then: Validate the returned model] OK: took 0 ms</message>
+            <name>Then: Validate the returned model</name>
+            <order>11</order>
+            <started>12:18:54.801</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 11 [DataSource Loop] OK: took 0 ms
+ -> Data Row 2</message>
+            <name>DataSource Loop</name>
+            <order>12</order>
+            <started>12:18:54.802</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 12 [Setup: getVehicleModelList] OK: took 0 ms</message>
+            <name>Setup: getVehicleModelList</name>
+            <order>13</order>
+            <started>12:18:54.803</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 13 [Given: Configure the SOAP get vehicle model list] OK: took 40 ms</message>
+            <name>Given: Configure the SOAP get vehicle model list</name>
+            <order>14</order>
+            <started>12:18:54.805</started>
+            <status>OK</status>
+            <timeTaken>40</timeTaken>
+          </result>
+          <result>
+            <message>Step 14 [Then: Validate the status] OK: took 1 ms</message>
+            <name>Then: Validate the status</name>
+            <order>15</order>
+            <started>12:18:54.846</started>
+            <status>OK</status>
+            <timeTaken>1</timeTaken>
+          </result>
+          <result>
+            <message>Step 15 [Then: Validate the returned model] OK: took 0 ms</message>
+            <name>Then: Validate the returned model</name>
+            <order>16</order>
+            <started>12:18:54.848</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 16 [DataSource Loop] OK: took 0 ms
+ -> Data Row 3</message>
+            <name>DataSource Loop</name>
+            <order>17</order>
+            <started>12:18:54.849</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 17 [Setup: getVehicleModelList] OK: took 0 ms</message>
+            <name>Setup: getVehicleModelList</name>
+            <order>18</order>
+            <started>12:18:54.850</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 18 [Given: Configure the SOAP get vehicle model list] OK: took 30 ms</message>
+            <name>Given: Configure the SOAP get vehicle model list</name>
+            <order>19</order>
+            <started>12:18:54.851</started>
+            <status>OK</status>
+            <timeTaken>30</timeTaken>
+          </result>
+          <result>
+            <message>Step 19 [Then: Validate the status] OK: took 2 ms</message>
+            <name>Then: Validate the status</name>
+            <order>20</order>
+            <started>12:18:54.883</started>
+            <status>OK</status>
+            <timeTaken>2</timeTaken>
+          </result>
+          <result>
+            <message>Step 20 [Then: Validate the returned model] OK: took 1 ms</message>
+            <name>Then: Validate the returned model</name>
+            <order>21</order>
+            <started>12:18:54.886</started>
+            <status>OK</status>
+            <timeTaken>1</timeTaken>
+          </result>
+          <result>
+            <message>Step 21 [DataSource Loop] OK: took 0 ms
+ -> Data Row 4</message>
+            <name>DataSource Loop</name>
+            <order>22</order>
+            <started>12:18:54.889</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 22 [Setup: getVehicleModelList] OK: took 0 ms</message>
+            <name>Setup: getVehicleModelList</name>
+            <order>23</order>
+            <started>12:18:54.889</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 23 [Given: Configure the SOAP get vehicle model list] OK: took 19 ms</message>
+            <name>Given: Configure the SOAP get vehicle model list</name>
+            <order>24</order>
+            <started>12:18:54.891</started>
+            <status>OK</status>
+            <timeTaken>19</timeTaken>
+          </result>
+          <result>
+            <message>Step 24 [Then: Validate the status] OK: took 1 ms</message>
+            <name>Then: Validate the status</name>
+            <order>25</order>
+            <started>12:18:54.911</started>
+            <status>OK</status>
+            <timeTaken>1</timeTaken>
+          </result>
+          <result>
+            <message>Step 25 [Then: Validate the returned model] OK: took 1 ms</message>
+            <name>Then: Validate the returned model</name>
+            <order>26</order>
+            <started>12:18:54.914</started>
+            <status>OK</status>
+            <timeTaken>1</timeTaken>
+          </result>
+          <result>
+            <message>Step 26 [DataSource Loop] OK: took 0 ms
+ -> Data Row 5</message>
+            <name>DataSource Loop</name>
+            <order>27</order>
+            <started>12:18:54.916</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 27 [Setup: getVehicleModelList] OK: took 0 ms</message>
+            <name>Setup: getVehicleModelList</name>
+            <order>28</order>
+            <started>12:18:54.917</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 28 [Given: Configure the SOAP get vehicle model list] OK: took 21 ms</message>
+            <name>Given: Configure the SOAP get vehicle model list</name>
+            <order>29</order>
+            <started>12:18:54.918</started>
+            <status>OK</status>
+            <timeTaken>21</timeTaken>
+          </result>
+          <result>
+            <message>Step 29 [Then: Validate the status] OK: took 1 ms</message>
+            <name>Then: Validate the status</name>
+            <order>30</order>
+            <started>12:18:54.941</started>
+            <status>OK</status>
+            <timeTaken>1</timeTaken>
+          </result>
+          <result>
+            <message>Step 30 [Then: Validate the returned model] OK: took 0 ms</message>
+            <name>Then: Validate the returned model</name>
+            <order>31</order>
+            <started>12:18:54.944</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 31 [DataSource Loop] OK: took 0 ms
+ -> Data Row 6</message>
+            <name>DataSource Loop</name>
+            <order>32</order>
+            <started>12:18:54.945</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+        </testStepResults>
+        <testStepParameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource: Condition values</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getVehicleModelList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get vehicle model list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the returned model</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getVehicleModelList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get vehicle model list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the returned model</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getVehicleModelList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get vehicle model list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the returned model</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getVehicleModelList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get vehicle model list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the returned model</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getVehicleModelList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get vehicle model list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the returned model</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getVehicleModelList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get vehicle model list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the returned model</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop</testStepName>
+          </parameters>
+        </testStepParameters>
+        <failedTestSteps/>
+      </testCase>
+      <testCase>
+        <startTime>12:18:54</startTime>
+        <status>FINISHED</status>
+        <testCaseId>fa54aba3-a030-4732-845a-198b6355a767</testCaseId>
+        <testCaseName>getOccupationsList</testCaseName>
+        <timeTaken>903</timeTaken>
+        <testStepResults>
+          <result>
+            <message>Step 1 [DataSource: Condition values] OK: took 9 ms</message>
+            <name>DataSource: Condition values</name>
+            <order>2</order>
+            <started>12:18:54.953</started>
+            <status>OK</status>
+            <timeTaken>9</timeTaken>
+          </result>
+          <result>
+            <message>Step 2 [DataSource: Language] OK: took 0 ms</message>
+            <name>DataSource: Language</name>
+            <order>3</order>
+            <started>12:18:54.962</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 3 [Setup: getOccupationsList] OK: took 0 ms</message>
+            <name>Setup: getOccupationsList</name>
+            <order>4</order>
+            <started>12:18:54.963</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 4 [Given: Configure the SOAP get occupations list] OK: took 30 ms</message>
+            <name>Given: Configure the SOAP get occupations list</name>
+            <order>5</order>
+            <started>12:18:54.964</started>
+            <status>OK</status>
+            <timeTaken>30</timeTaken>
+          </result>
+          <result>
+            <message>Step 5 [Then: Validate the status] OK: took 0 ms</message>
+            <name>Then: Validate the status</name>
+            <order>6</order>
+            <started>12:18:54.997</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 6 [Then: Validate the content] OK: took 9 ms</message>
+            <name>Then: Validate the content</name>
+            <order>7</order>
+            <started>12:18:54.998</started>
+            <status>OK</status>
+            <timeTaken>9</timeTaken>
+          </result>
+          <result>
+            <message>Step 7 [DataSource Loop: Language] OK: took 0 ms
+ -> Data Row 1</message>
+            <name>DataSource Loop: Language</name>
+            <order>8</order>
+            <started>12:18:55.008</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 8 [Setup: getOccupationsList] OK: took 0 ms</message>
+            <name>Setup: getOccupationsList</name>
+            <order>9</order>
+            <started>12:18:55.009</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 9 [Given: Configure the SOAP get occupations list] OK: took 27 ms</message>
+            <name>Given: Configure the SOAP get occupations list</name>
+            <order>10</order>
+            <started>12:18:55.010</started>
+            <status>OK</status>
+            <timeTaken>27</timeTaken>
+          </result>
+          <result>
+            <message>Step 10 [Then: Validate the status] OK: took 0 ms</message>
+            <name>Then: Validate the status</name>
+            <order>11</order>
+            <started>12:18:55.039</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 11 [Then: Validate the content] OK: took 7 ms</message>
+            <name>Then: Validate the content</name>
+            <order>12</order>
+            <started>12:18:55.041</started>
+            <status>OK</status>
+            <timeTaken>7</timeTaken>
+          </result>
+          <result>
+            <message>Step 12 [DataSource Loop: Language] OK: took 0 ms
+ -> Data Row 2</message>
+            <name>DataSource Loop: Language</name>
+            <order>13</order>
+            <started>12:18:55.049</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 13 [Setup: getOccupationsList] OK: took 0 ms</message>
+            <name>Setup: getOccupationsList</name>
+            <order>14</order>
+            <started>12:18:55.049</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 14 [Given: Configure the SOAP get occupations list] OK: took 21 ms</message>
+            <name>Given: Configure the SOAP get occupations list</name>
+            <order>15</order>
+            <started>12:18:55.050</started>
+            <status>OK</status>
+            <timeTaken>21</timeTaken>
+          </result>
+          <result>
+            <message>Step 15 [Then: Validate the status] OK: took 0 ms</message>
+            <name>Then: Validate the status</name>
+            <order>16</order>
+            <started>12:18:55.073</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 16 [Then: Validate the content] OK: took 9 ms</message>
+            <name>Then: Validate the content</name>
+            <order>17</order>
+            <started>12:18:55.074</started>
+            <status>OK</status>
+            <timeTaken>9</timeTaken>
+          </result>
+          <result>
+            <message>Step 17 [DataSource Loop: Language] OK: took 0 ms
+ -> Data Row 3</message>
+            <name>DataSource Loop: Language</name>
+            <order>18</order>
+            <started>12:18:55.085</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 18 [Setup: getOccupationsList] OK: took 0 ms</message>
+            <name>Setup: getOccupationsList</name>
+            <order>19</order>
+            <started>12:18:55.086</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 19 [Given: Configure the SOAP get occupations list] OK: took 31 ms</message>
+            <name>Given: Configure the SOAP get occupations list</name>
+            <order>20</order>
+            <started>12:18:55.087</started>
+            <status>OK</status>
+            <timeTaken>31</timeTaken>
+          </result>
+          <result>
+            <message>Step 20 [Then: Validate the status] OK: took 0 ms</message>
+            <name>Then: Validate the status</name>
+            <order>21</order>
+            <started>12:18:55.120</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 21 [Then: Validate the content] OK: took 8 ms</message>
+            <name>Then: Validate the content</name>
+            <order>22</order>
+            <started>12:18:55.122</started>
+            <status>OK</status>
+            <timeTaken>8</timeTaken>
+          </result>
+          <result>
+            <message>Step 22 [DataSource Loop: Language] OK: took 0 ms
+ -> Data Row 4</message>
+            <name>DataSource Loop: Language</name>
+            <order>23</order>
+            <started>12:18:55.131</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 23 [Setup: getOccupationsList] OK: took 0 ms</message>
+            <name>Setup: getOccupationsList</name>
+            <order>24</order>
+            <started>12:18:55.132</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 24 [Given: Configure the SOAP get occupations list] OK: took 84 ms</message>
+            <name>Given: Configure the SOAP get occupations list</name>
+            <order>25</order>
+            <started>12:18:55.133</started>
+            <status>OK</status>
+            <timeTaken>84</timeTaken>
+          </result>
+          <result>
+            <message>Step 25 [Then: Validate the status] OK: took 1 ms</message>
+            <name>Then: Validate the status</name>
+            <order>26</order>
+            <started>12:18:55.220</started>
+            <status>OK</status>
+            <timeTaken>1</timeTaken>
+          </result>
+          <result>
+            <message>Step 26 [Then: Validate the content] OK: took 14 ms</message>
+            <name>Then: Validate the content</name>
+            <order>27</order>
+            <started>12:18:55.222</started>
+            <status>OK</status>
+            <timeTaken>14</timeTaken>
+          </result>
+          <result>
+            <message>Step 27 [DataSource Loop: Language] OK: took 0 ms
+ -> Data Row 5</message>
+            <name>DataSource Loop: Language</name>
+            <order>28</order>
+            <started>12:18:55.238</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 28 [Setup: getOccupationsList] OK: took 0 ms</message>
+            <name>Setup: getOccupationsList</name>
+            <order>29</order>
+            <started>12:18:55.239</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 29 [Given: Configure the SOAP get occupations list] OK: took 32 ms</message>
+            <name>Given: Configure the SOAP get occupations list</name>
+            <order>30</order>
+            <started>12:18:55.240</started>
+            <status>OK</status>
+            <timeTaken>32</timeTaken>
+          </result>
+          <result>
+            <message>Step 30 [Then: Validate the status] OK: took 1 ms</message>
+            <name>Then: Validate the status</name>
+            <order>31</order>
+            <started>12:18:55.275</started>
+            <status>OK</status>
+            <timeTaken>1</timeTaken>
+          </result>
+          <result>
+            <message>Step 31 [Then: Validate the content] OK: took 11 ms</message>
+            <name>Then: Validate the content</name>
+            <order>32</order>
+            <started>12:18:55.278</started>
+            <status>OK</status>
+            <timeTaken>11</timeTaken>
+          </result>
+          <result>
+            <message>Step 32 [DataSource Loop: Language] OK: took 0 ms
+ -> Data Row 6</message>
+            <name>DataSource Loop: Language</name>
+            <order>33</order>
+            <started>12:18:55.290</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 33 [Setup: getOccupationsList] OK: took 0 ms</message>
+            <name>Setup: getOccupationsList</name>
+            <order>34</order>
+            <started>12:18:55.291</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 34 [Given: Configure the SOAP get occupations list] OK: took 36 ms</message>
+            <name>Given: Configure the SOAP get occupations list</name>
+            <order>35</order>
+            <started>12:18:55.293</started>
+            <status>OK</status>
+            <timeTaken>36</timeTaken>
+          </result>
+          <result>
+            <message>Step 35 [Then: Validate the status] OK: took 0 ms</message>
+            <name>Then: Validate the status</name>
+            <order>36</order>
+            <started>12:18:55.331</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 36 [Then: Validate the content] OK: took 9 ms</message>
+            <name>Then: Validate the content</name>
+            <order>37</order>
+            <started>12:18:55.332</started>
+            <status>OK</status>
+            <timeTaken>9</timeTaken>
+          </result>
+          <result>
+            <message>Step 37 [DataSource Loop: Language] OK: took 0 ms
+ -> Data Row 7</message>
+            <name>DataSource Loop: Language</name>
+            <order>38</order>
+            <started>12:18:55.343</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 38 [Setup: getOccupationsList] OK: took 0 ms</message>
+            <name>Setup: getOccupationsList</name>
+            <order>39</order>
+            <started>12:18:55.343</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 39 [Given: Configure the SOAP get occupations list] OK: took 38 ms</message>
+            <name>Given: Configure the SOAP get occupations list</name>
+            <order>40</order>
+            <started>12:18:55.345</started>
+            <status>OK</status>
+            <timeTaken>38</timeTaken>
+          </result>
+          <result>
+            <message>Step 40 [Then: Validate the status] OK: took 0 ms</message>
+            <name>Then: Validate the status</name>
+            <order>41</order>
+            <started>12:18:55.385</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 41 [Then: Validate the content] OK: took 9 ms</message>
+            <name>Then: Validate the content</name>
+            <order>42</order>
+            <started>12:18:55.386</started>
+            <status>OK</status>
+            <timeTaken>9</timeTaken>
+          </result>
+          <result>
+            <message>Step 42 [DataSource Loop: Language] OK: took 0 ms
+ -> Data Row 8</message>
+            <name>DataSource Loop: Language</name>
+            <order>43</order>
+            <started>12:18:55.396</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 43 [Setup: getOccupationsList] OK: took 0 ms</message>
+            <name>Setup: getOccupationsList</name>
+            <order>44</order>
+            <started>12:18:55.399</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 44 [Given: Configure the SOAP get occupations list] OK: took 31 ms</message>
+            <name>Given: Configure the SOAP get occupations list</name>
+            <order>45</order>
+            <started>12:18:55.400</started>
+            <status>OK</status>
+            <timeTaken>31</timeTaken>
+          </result>
+          <result>
+            <message>Step 45 [Then: Validate the status] OK: took 1 ms</message>
+            <name>Then: Validate the status</name>
+            <order>46</order>
+            <started>12:18:55.433</started>
+            <status>OK</status>
+            <timeTaken>1</timeTaken>
+          </result>
+          <result>
+            <message>Step 46 [Then: Validate the content] OK: took 10 ms</message>
+            <name>Then: Validate the content</name>
+            <order>47</order>
+            <started>12:18:55.435</started>
+            <status>OK</status>
+            <timeTaken>10</timeTaken>
+          </result>
+          <result>
+            <message>Step 47 [DataSource Loop: Language] OK: took 0 ms
+ -> Data Row 9</message>
+            <name>DataSource Loop: Language</name>
+            <order>48</order>
+            <started>12:18:55.447</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 48 [Setup: getOccupationsList] OK: took 1 ms</message>
+            <name>Setup: getOccupationsList</name>
+            <order>49</order>
+            <started>12:18:55.448</started>
+            <status>OK</status>
+            <timeTaken>1</timeTaken>
+          </result>
+          <result>
+            <message>Step 49 [Given: Configure the SOAP get occupations list] OK: took 23 ms</message>
+            <name>Given: Configure the SOAP get occupations list</name>
+            <order>50</order>
+            <started>12:18:55.450</started>
+            <status>OK</status>
+            <timeTaken>23</timeTaken>
+          </result>
+          <result>
+            <message>Step 50 [Then: Validate the status] OK: took 0 ms</message>
+            <name>Then: Validate the status</name>
+            <order>51</order>
+            <started>12:18:55.475</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 51 [Then: Validate the content] OK: took 9 ms</message>
+            <name>Then: Validate the content</name>
+            <order>52</order>
+            <started>12:18:55.476</started>
+            <status>OK</status>
+            <timeTaken>9</timeTaken>
+          </result>
+          <result>
+            <message>Step 52 [DataSource Loop: Language] OK: took 0 ms
+ -> Data Row 10</message>
+            <name>DataSource Loop: Language</name>
+            <order>53</order>
+            <started>12:18:55.487</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 53 [Setup: getOccupationsList] OK: took 0 ms</message>
+            <name>Setup: getOccupationsList</name>
+            <order>54</order>
+            <started>12:18:55.488</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 54 [Given: Configure the SOAP get occupations list] OK: took 25 ms</message>
+            <name>Given: Configure the SOAP get occupations list</name>
+            <order>55</order>
+            <started>12:18:55.489</started>
+            <status>OK</status>
+            <timeTaken>25</timeTaken>
+          </result>
+          <result>
+            <message>Step 55 [Then: Validate the status] OK: took 1 ms</message>
+            <name>Then: Validate the status</name>
+            <order>56</order>
+            <started>12:18:55.516</started>
+            <status>OK</status>
+            <timeTaken>1</timeTaken>
+          </result>
+          <result>
+            <message>Step 56 [Then: Validate the content] OK: took 12 ms</message>
+            <name>Then: Validate the content</name>
+            <order>57</order>
+            <started>12:18:55.519</started>
+            <status>OK</status>
+            <timeTaken>12</timeTaken>
+          </result>
+          <result>
+            <message>Step 57 [DataSource Loop: Language] OK: took 0 ms
+ -> Data Row 11</message>
+            <name>DataSource Loop: Language</name>
+            <order>58</order>
+            <started>12:18:55.534</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 58 [Setup: getOccupationsList] OK: took 0 ms</message>
+            <name>Setup: getOccupationsList</name>
+            <order>59</order>
+            <started>12:18:55.535</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 59 [Given: Configure the SOAP get occupations list] OK: took 28 ms</message>
+            <name>Given: Configure the SOAP get occupations list</name>
+            <order>60</order>
+            <started>12:18:55.535</started>
+            <status>OK</status>
+            <timeTaken>28</timeTaken>
+          </result>
+          <result>
+            <message>Step 60 [Then: Validate the status] OK: took 0 ms</message>
+            <name>Then: Validate the status</name>
+            <order>61</order>
+            <started>12:18:55.565</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 61 [Then: Validate the content] OK: took 7 ms</message>
+            <name>Then: Validate the content</name>
+            <order>62</order>
+            <started>12:18:55.567</started>
+            <status>OK</status>
+            <timeTaken>7</timeTaken>
+          </result>
+          <result>
+            <message>Step 62 [DataSource Loop: Language] OK: took 0 ms
+ -> Data Row 12</message>
+            <name>DataSource Loop: Language</name>
+            <order>63</order>
+            <started>12:18:55.575</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 63 [Setup: getOccupationsList] OK: took 0 ms</message>
+            <name>Setup: getOccupationsList</name>
+            <order>64</order>
+            <started>12:18:55.576</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 64 [Given: Configure the SOAP get occupations list] OK: took 24 ms</message>
+            <name>Given: Configure the SOAP get occupations list</name>
+            <order>65</order>
+            <started>12:18:55.576</started>
+            <status>OK</status>
+            <timeTaken>24</timeTaken>
+          </result>
+          <result>
+            <message>Step 65 [Then: Validate the status] OK: took 0 ms</message>
+            <name>Then: Validate the status</name>
+            <order>66</order>
+            <started>12:18:55.603</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 66 [Then: Validate the content] OK: took 7 ms</message>
+            <name>Then: Validate the content</name>
+            <order>67</order>
+            <started>12:18:55.604</started>
+            <status>OK</status>
+            <timeTaken>7</timeTaken>
+          </result>
+          <result>
+            <message>Step 67 [DataSource Loop: Language] OK: took 0 ms
+ -> Data Row 13</message>
+            <name>DataSource Loop: Language</name>
+            <order>68</order>
+            <started>12:18:55.611</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 68 [Setup: getOccupationsList] OK: took 0 ms</message>
+            <name>Setup: getOccupationsList</name>
+            <order>69</order>
+            <started>12:18:55.612</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 69 [Given: Configure the SOAP get occupations list] OK: took 20 ms</message>
+            <name>Given: Configure the SOAP get occupations list</name>
+            <order>70</order>
+            <started>12:18:55.613</started>
+            <status>OK</status>
+            <timeTaken>20</timeTaken>
+          </result>
+          <result>
+            <message>Step 70 [Then: Validate the status] OK: took 0 ms</message>
+            <name>Then: Validate the status</name>
+            <order>71</order>
+            <started>12:18:55.635</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 71 [Then: Validate the content] OK: took 7 ms</message>
+            <name>Then: Validate the content</name>
+            <order>72</order>
+            <started>12:18:55.636</started>
+            <status>OK</status>
+            <timeTaken>7</timeTaken>
+          </result>
+          <result>
+            <message>Step 72 [DataSource Loop: Language] OK: took 0 ms
+ -> Data Row 14</message>
+            <name>DataSource Loop: Language</name>
+            <order>73</order>
+            <started>12:18:55.645</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 73 [Setup: getOccupationsList] OK: took 0 ms</message>
+            <name>Setup: getOccupationsList</name>
+            <order>74</order>
+            <started>12:18:55.645</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 74 [Given: Configure the SOAP get occupations list] OK: took 26 ms</message>
+            <name>Given: Configure the SOAP get occupations list</name>
+            <order>75</order>
+            <started>12:18:55.646</started>
+            <status>OK</status>
+            <timeTaken>26</timeTaken>
+          </result>
+          <result>
+            <message>Step 75 [Then: Validate the status] OK: took 0 ms</message>
+            <name>Then: Validate the status</name>
+            <order>76</order>
+            <started>12:18:55.674</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 76 [Then: Validate the content] OK: took 9 ms</message>
+            <name>Then: Validate the content</name>
+            <order>77</order>
+            <started>12:18:55.676</started>
+            <status>OK</status>
+            <timeTaken>9</timeTaken>
+          </result>
+          <result>
+            <message>Step 77 [DataSource Loop: Language] OK: took 0 ms
+ -> Data Row 15</message>
+            <name>DataSource Loop: Language</name>
+            <order>78</order>
+            <started>12:18:55.685</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 78 [Setup: getOccupationsList] OK: took 0 ms</message>
+            <name>Setup: getOccupationsList</name>
+            <order>79</order>
+            <started>12:18:55.686</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 79 [Given: Configure the SOAP get occupations list] OK: took 20 ms</message>
+            <name>Given: Configure the SOAP get occupations list</name>
+            <order>80</order>
+            <started>12:18:55.687</started>
+            <status>OK</status>
+            <timeTaken>20</timeTaken>
+          </result>
+          <result>
+            <message>Step 80 [Then: Validate the status] OK: took 0 ms</message>
+            <name>Then: Validate the status</name>
+            <order>81</order>
+            <started>12:18:55.709</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 81 [Then: Validate the content] OK: took 7 ms</message>
+            <name>Then: Validate the content</name>
+            <order>82</order>
+            <started>12:18:55.710</started>
+            <status>OK</status>
+            <timeTaken>7</timeTaken>
+          </result>
+          <result>
+            <message>Step 82 [DataSource Loop: Language] OK: took 0 ms
+ -> Data Row 16</message>
+            <name>DataSource Loop: Language</name>
+            <order>83</order>
+            <started>12:18:55.718</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 83 [Setup: getOccupationsList] OK: took 0 ms</message>
+            <name>Setup: getOccupationsList</name>
+            <order>84</order>
+            <started>12:18:55.719</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 84 [Given: Configure the SOAP get occupations list] OK: took 24 ms</message>
+            <name>Given: Configure the SOAP get occupations list</name>
+            <order>85</order>
+            <started>12:18:55.720</started>
+            <status>OK</status>
+            <timeTaken>24</timeTaken>
+          </result>
+          <result>
+            <message>Step 85 [Then: Validate the status] OK: took 0 ms</message>
+            <name>Then: Validate the status</name>
+            <order>86</order>
+            <started>12:18:55.748</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 86 [Then: Validate the content] OK: took 8 ms</message>
+            <name>Then: Validate the content</name>
+            <order>87</order>
+            <started>12:18:55.749</started>
+            <status>OK</status>
+            <timeTaken>8</timeTaken>
+          </result>
+          <result>
+            <message>Step 87 [DataSource Loop: Language] OK: took 0 ms
+ -> Data Row 17</message>
+            <name>DataSource Loop: Language</name>
+            <order>88</order>
+            <started>12:18:55.758</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 88 [Setup: getOccupationsList] OK: took 0 ms</message>
+            <name>Setup: getOccupationsList</name>
+            <order>89</order>
+            <started>12:18:55.759</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 89 [Given: Configure the SOAP get occupations list] OK: took 27 ms</message>
+            <name>Given: Configure the SOAP get occupations list</name>
+            <order>90</order>
+            <started>12:18:55.759</started>
+            <status>OK</status>
+            <timeTaken>27</timeTaken>
+          </result>
+          <result>
+            <message>Step 90 [Then: Validate the status] OK: took 0 ms</message>
+            <name>Then: Validate the status</name>
+            <order>91</order>
+            <started>12:18:55.788</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 91 [Then: Validate the content] OK: took 7 ms</message>
+            <name>Then: Validate the content</name>
+            <order>92</order>
+            <started>12:18:55.790</started>
+            <status>OK</status>
+            <timeTaken>7</timeTaken>
+          </result>
+          <result>
+            <message>Step 92 [DataSource Loop: Language] OK: took 0 ms
+ -> Data Row 18</message>
+            <name>DataSource Loop: Language</name>
+            <order>93</order>
+            <started>12:18:55.798</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 93 [Setup: getOccupationsList] OK: took 0 ms</message>
+            <name>Setup: getOccupationsList</name>
+            <order>94</order>
+            <started>12:18:55.799</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 94 [Given: Configure the SOAP get occupations list] OK: took 23 ms</message>
+            <name>Given: Configure the SOAP get occupations list</name>
+            <order>95</order>
+            <started>12:18:55.800</started>
+            <status>OK</status>
+            <timeTaken>23</timeTaken>
+          </result>
+          <result>
+            <message>Step 95 [Then: Validate the status] OK: took 0 ms</message>
+            <name>Then: Validate the status</name>
+            <order>96</order>
+            <started>12:18:55.825</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 96 [Then: Validate the content] OK: took 9 ms</message>
+            <name>Then: Validate the content</name>
+            <order>97</order>
+            <started>12:18:55.827</started>
+            <status>OK</status>
+            <timeTaken>9</timeTaken>
+          </result>
+          <result>
+            <message>Step 97 [DataSource Loop: Language] OK: took 0 ms
+ -> Data Row 19</message>
+            <name>DataSource Loop: Language</name>
+            <order>98</order>
+            <started>12:18:55.837</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 98 [Setup: getOccupationsList] OK: took 0 ms</message>
+            <name>Setup: getOccupationsList</name>
+            <order>99</order>
+            <started>12:18:55.837</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 99 [Given: Configure the SOAP get occupations list] OK: took 31 ms</message>
+            <name>Given: Configure the SOAP get occupations list</name>
+            <order>100</order>
+            <started>12:18:55.838</started>
+            <status>OK</status>
+            <timeTaken>31</timeTaken>
+          </result>
+          <result>
+            <message>Step 100 [Then: Validate the status] OK: took 0 ms</message>
+            <name>Then: Validate the status</name>
+            <order>101</order>
+            <started>12:18:55.872</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 101 [Then: Validate the content] OK: took 8 ms</message>
+            <name>Then: Validate the content</name>
+            <order>102</order>
+            <started>12:18:55.873</started>
+            <status>OK</status>
+            <timeTaken>8</timeTaken>
+          </result>
+          <result>
+            <message>Step 102 [DataSource Loop: Language] OK: took 0 ms
+ -> Data Row 20</message>
+            <name>DataSource Loop: Language</name>
+            <order>103</order>
+            <started>12:18:55.882</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 103 [Setup: getOccupationsList] OK: took 0 ms</message>
+            <name>Setup: getOccupationsList</name>
+            <order>104</order>
+            <started>12:18:55.883</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 104 [Given: Configure the SOAP get occupations list] OK: took 35 ms</message>
+            <name>Given: Configure the SOAP get occupations list</name>
+            <order>105</order>
+            <started>12:18:55.883</started>
+            <status>OK</status>
+            <timeTaken>35</timeTaken>
+          </result>
+          <result>
+            <message>Step 105 [Then: Validate the status] OK: took 0 ms</message>
+            <name>Then: Validate the status</name>
+            <order>106</order>
+            <started>12:18:55.921</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 106 [Then: Validate the content] OK: took 7 ms</message>
+            <name>Then: Validate the content</name>
+            <order>107</order>
+            <started>12:18:55.923</started>
+            <status>OK</status>
+            <timeTaken>7</timeTaken>
+          </result>
+          <result>
+            <message>Step 107 [DataSource Loop: Language] OK: took 0 ms
+ -> Data Row 21</message>
+            <name>DataSource Loop: Language</name>
+            <order>108</order>
+            <started>12:18:55.931</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 108 [Setup: getOccupationsList] OK: took 0 ms</message>
+            <name>Setup: getOccupationsList</name>
+            <order>109</order>
+            <started>12:18:55.931</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 109 [Given: Configure the SOAP get occupations list] OK: took 22 ms</message>
+            <name>Given: Configure the SOAP get occupations list</name>
+            <order>110</order>
+            <started>12:18:55.932</started>
+            <status>OK</status>
+            <timeTaken>22</timeTaken>
+          </result>
+          <result>
+            <message>Step 110 [Then: Validate the status] OK: took 0 ms</message>
+            <name>Then: Validate the status</name>
+            <order>111</order>
+            <started>12:18:55.956</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 111 [Then: Validate the content] OK: took 8 ms</message>
+            <name>Then: Validate the content</name>
+            <order>112</order>
+            <started>12:18:55.958</started>
+            <status>OK</status>
+            <timeTaken>8</timeTaken>
+          </result>
+          <result>
+            <message>Step 112 [DataSource Loop: Language] OK: took 0 ms
+ -> Data Row 22</message>
+            <name>DataSource Loop: Language</name>
+            <order>113</order>
+            <started>12:18:55.966</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 113 [Setup: getOccupationsList] OK: took 0 ms</message>
+            <name>Setup: getOccupationsList</name>
+            <order>114</order>
+            <started>12:18:55.967</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 114 [Given: Configure the SOAP get occupations list] OK: took 33 ms</message>
+            <name>Given: Configure the SOAP get occupations list</name>
+            <order>115</order>
+            <started>12:18:55.968</started>
+            <status>OK</status>
+            <timeTaken>33</timeTaken>
+          </result>
+          <result>
+            <message>Step 115 [Then: Validate the status] OK: took 0 ms</message>
+            <name>Then: Validate the status</name>
+            <order>116</order>
+            <started>12:18:56.004</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 116 [Then: Validate the content] OK: took 7 ms</message>
+            <name>Then: Validate the content</name>
+            <order>117</order>
+            <started>12:18:56.005</started>
+            <status>OK</status>
+            <timeTaken>7</timeTaken>
+          </result>
+          <result>
+            <message>Step 117 [DataSource Loop: Language] OK: took 0 ms
+ -> Data Row 23</message>
+            <name>DataSource Loop: Language</name>
+            <order>118</order>
+            <started>12:18:56.014</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 118 [DataSource Loop: Condition values] OK: took 0 ms
+ -> Data Row 23</message>
+            <name>DataSource Loop: Condition values</name>
+            <order>119</order>
+            <started>12:18:56.014</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+        </testStepResults>
+        <testStepParameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource: Condition values</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource: Language</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getOccupationsList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get occupations list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the content</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop: Language</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getOccupationsList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get occupations list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the content</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop: Language</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getOccupationsList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get occupations list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the content</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop: Language</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getOccupationsList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get occupations list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the content</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop: Language</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getOccupationsList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get occupations list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the content</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop: Language</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getOccupationsList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get occupations list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the content</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop: Language</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getOccupationsList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get occupations list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the content</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop: Language</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getOccupationsList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get occupations list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the content</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop: Language</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getOccupationsList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get occupations list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the content</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop: Language</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getOccupationsList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get occupations list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the content</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop: Language</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getOccupationsList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get occupations list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the content</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop: Language</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getOccupationsList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get occupations list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the content</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop: Language</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getOccupationsList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get occupations list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the content</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop: Language</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getOccupationsList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get occupations list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the content</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop: Language</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getOccupationsList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get occupations list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the content</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop: Language</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getOccupationsList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get occupations list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the content</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop: Language</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getOccupationsList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get occupations list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the content</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop: Language</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getOccupationsList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get occupations list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the content</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop: Language</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getOccupationsList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get occupations list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the content</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop: Language</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getOccupationsList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get occupations list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the content</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop: Language</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getOccupationsList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get occupations list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the content</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop: Language</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getOccupationsList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get occupations list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the content</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop: Language</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getOccupationsList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get occupations list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the content</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop: Language</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop: Condition values</testStepName>
+          </parameters>
+        </testStepParameters>
+        <failedTestSteps/>
+      </testCase>
+      <testCase>
+        <startTime>12:18:56</startTime>
+        <status>FINISHED</status>
+        <testCaseId>ed1682b5-4fe0-4cd3-a8ce-ef84b333c3c2</testCaseId>
+        <testCaseName>getMunicipalityByPostalCode</testCaseName>
+        <timeTaken>220</timeTaken>
+        <testStepResults>
+          <result>
+            <message>Step 1 [DataSource: Condition values] OK: took 10 ms</message>
+            <name>DataSource: Condition values</name>
+            <order>2</order>
+            <started>12:18:56.023</started>
+            <status>OK</status>
+            <timeTaken>10</timeTaken>
+          </result>
+          <result>
+            <message>Step 2 [Setup: getMunicipalityByPostalCode] OK: took 0 ms</message>
+            <name>Setup: getMunicipalityByPostalCode</name>
+            <order>3</order>
+            <started>12:18:56.034</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 3 [Given: Configure the SOAP get municipality by postal code] OK: took 69 ms</message>
+            <name>Given: Configure the SOAP get municipality by postal code</name>
+            <order>4</order>
+            <started>12:18:56.035</started>
+            <status>OK</status>
+            <timeTaken>69</timeTaken>
+          </result>
+          <result>
+            <message>Step 4 [Then: Validate the status] OK: took 0 ms</message>
+            <name>Then: Validate the status</name>
+            <order>5</order>
+            <started>12:18:56.107</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 5 [Then: Validate the content] OK: took 1 ms</message>
+            <name>Then: Validate the content</name>
+            <order>6</order>
+            <started>12:18:56.108</started>
+            <status>OK</status>
+            <timeTaken>1</timeTaken>
+          </result>
+          <result>
+            <message>Step 6 [DataSource Loop] OK: took 0 ms
+ -> Data Row 1</message>
+            <name>DataSource Loop</name>
+            <order>7</order>
+            <started>12:18:56.110</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 7 [Setup: getMunicipalityByPostalCode] OK: took 0 ms</message>
+            <name>Setup: getMunicipalityByPostalCode</name>
+            <order>8</order>
+            <started>12:18:56.110</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 8 [Given: Configure the SOAP get municipality by postal code] OK: took 21 ms</message>
+            <name>Given: Configure the SOAP get municipality by postal code</name>
+            <order>9</order>
+            <started>12:18:56.111</started>
+            <status>OK</status>
+            <timeTaken>21</timeTaken>
+          </result>
+          <result>
+            <message>Step 9 [Then: Validate the status] OK: took 0 ms</message>
+            <name>Then: Validate the status</name>
+            <order>10</order>
+            <started>12:18:56.135</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 10 [Then: Validate the content] OK: took 0 ms</message>
+            <name>Then: Validate the content</name>
+            <order>11</order>
+            <started>12:18:56.136</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 11 [DataSource Loop] OK: took 0 ms
+ -> Data Row 2</message>
+            <name>DataSource Loop</name>
+            <order>12</order>
+            <started>12:18:56.137</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 12 [Setup: getMunicipalityByPostalCode] OK: took 0 ms</message>
+            <name>Setup: getMunicipalityByPostalCode</name>
+            <order>13</order>
+            <started>12:18:56.138</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 13 [Given: Configure the SOAP get municipality by postal code] OK: took 39 ms</message>
+            <name>Given: Configure the SOAP get municipality by postal code</name>
+            <order>14</order>
+            <started>12:18:56.139</started>
+            <status>OK</status>
+            <timeTaken>39</timeTaken>
+          </result>
+          <result>
+            <message>Step 14 [Then: Validate the status] OK: took 0 ms</message>
+            <name>Then: Validate the status</name>
+            <order>15</order>
+            <started>12:18:56.180</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 15 [Then: Validate the content] OK: took 0 ms</message>
+            <name>Then: Validate the content</name>
+            <order>16</order>
+            <started>12:18:56.181</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 16 [DataSource Loop] OK: took 0 ms
+ -> Data Row 3</message>
+            <name>DataSource Loop</name>
+            <order>17</order>
+            <started>12:18:56.183</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 17 [Setup: getMunicipalityByPostalCode] OK: took 0 ms</message>
+            <name>Setup: getMunicipalityByPostalCode</name>
+            <order>18</order>
+            <started>12:18:56.183</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 18 [Given: Configure the SOAP get municipality by postal code] OK: took 37 ms</message>
+            <name>Given: Configure the SOAP get municipality by postal code</name>
+            <order>19</order>
+            <started>12:18:56.184</started>
+            <status>OK</status>
+            <timeTaken>37</timeTaken>
+          </result>
+          <result>
+            <message>Step 19 [Then: Validate the status] OK: took 0 ms</message>
+            <name>Then: Validate the status</name>
+            <order>20</order>
+            <started>12:18:56.225</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 20 [Then: Validate the content] OK: took 0 ms</message>
+            <name>Then: Validate the content</name>
+            <order>21</order>
+            <started>12:18:56.226</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 21 [DataSource Loop] OK: took 0 ms
+ -> Data Row 4</message>
+            <name>DataSource Loop</name>
+            <order>22</order>
+            <started>12:18:56.227</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 22 [Setup: getMunicipalityByPostalCode] OK: took 0 ms</message>
+            <name>Setup: getMunicipalityByPostalCode</name>
+            <order>23</order>
+            <started>12:18:56.228</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 23 [Given: Configure the SOAP get municipality by postal code] OK: took 10 ms</message>
+            <name>Given: Configure the SOAP get municipality by postal code</name>
+            <order>24</order>
+            <started>12:18:56.229</started>
+            <status>OK</status>
+            <timeTaken>10</timeTaken>
+          </result>
+          <result>
+            <message>Step 24 [Then: Validate the status] OK: took 0 ms</message>
+            <name>Then: Validate the status</name>
+            <order>25</order>
+            <started>12:18:56.241</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 25 [Then: Validate the content] OK: took 0 ms</message>
+            <name>Then: Validate the content</name>
+            <order>26</order>
+            <started>12:18:56.242</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 26 [DataSource Loop] OK: took 0 ms
+ -> Data Row 5</message>
+            <name>DataSource Loop</name>
+            <order>27</order>
+            <started>12:18:56.243</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 27 [Setup: getMunicipalityByPostalCode] OK: took 0 ms</message>
+            <name>Setup: getMunicipalityByPostalCode</name>
+            <order>28</order>
+            <started>12:18:56.244</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 28 [Given: Configure the SOAP get municipality by postal code] OK: took 12 ms</message>
+            <name>Given: Configure the SOAP get municipality by postal code</name>
+            <order>29</order>
+            <started>12:18:56.245</started>
+            <status>OK</status>
+            <timeTaken>12</timeTaken>
+          </result>
+          <result>
+            <message>Step 29 [Then: Validate the status] OK: took 0 ms</message>
+            <name>Then: Validate the status</name>
+            <order>30</order>
+            <started>12:18:56.258</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 30 [Then: Validate the content] OK: took 0 ms</message>
+            <name>Then: Validate the content</name>
+            <order>31</order>
+            <started>12:18:56.260</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 31 [DataSource Loop] OK: took 0 ms
+ -> Data Row 6</message>
+            <name>DataSource Loop</name>
+            <order>32</order>
+            <started>12:18:56.261</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 32 [Setup: getMunicipalityByPostalCode] OK: took 0 ms</message>
+            <name>Setup: getMunicipalityByPostalCode</name>
+            <order>33</order>
+            <started>12:18:56.261</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 33 [Given: Configure the SOAP get municipality by postal code] OK: took 21 ms</message>
+            <name>Given: Configure the SOAP get municipality by postal code</name>
+            <order>34</order>
+            <started>12:18:56.262</started>
+            <status>OK</status>
+            <timeTaken>21</timeTaken>
+          </result>
+          <result>
+            <message>Step 34 [Then: Validate the status] OK: took 0 ms</message>
+            <name>Then: Validate the status</name>
+            <order>35</order>
+            <started>12:18:56.285</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 35 [Then: Validate the content] OK: took 0 ms</message>
+            <name>Then: Validate the content</name>
+            <order>36</order>
+            <started>12:18:56.286</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 36 [DataSource Loop] OK: took 0 ms
+ -> Data Row 7</message>
+            <name>DataSource Loop</name>
+            <order>37</order>
+            <started>12:18:56.287</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+        </testStepResults>
+        <testStepParameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource: Condition values</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getMunicipalityByPostalCode</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get municipality by postal code</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the content</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getMunicipalityByPostalCode</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get municipality by postal code</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the content</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getMunicipalityByPostalCode</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get municipality by postal code</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the content</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getMunicipalityByPostalCode</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get municipality by postal code</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the content</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getMunicipalityByPostalCode</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get municipality by postal code</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the content</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getMunicipalityByPostalCode</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get municipality by postal code</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the content</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getMunicipalityByPostalCode</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get municipality by postal code</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the content</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop</testStepName>
+          </parameters>
+        </testStepParameters>
+        <failedTestSteps/>
+      </testCase>
+      <testCase>
+        <startTime>12:18:56</startTime>
+        <status>FINISHED</status>
+        <testCaseId>5ee059a1-1411-4807-b941-db6cf162de4e</testCaseId>
+        <testCaseName>getInsuranceCarriersList</testCaseName>
+        <timeTaken>352</timeTaken>
+        <testStepResults>
+          <result>
+            <message>Step 1 [DataSource: Condition values] OK: took 8 ms</message>
+            <name>DataSource: Condition values</name>
+            <order>2</order>
+            <started>12:18:56.298</started>
+            <status>OK</status>
+            <timeTaken>8</timeTaken>
+          </result>
+          <result>
+            <message>Step 2 [Setup: getGroupList] OK: took 21 ms</message>
+            <name>Setup: getGroupList</name>
+            <order>3</order>
+            <started>12:18:56.308</started>
+            <status>OK</status>
+            <timeTaken>21</timeTaken>
+          </result>
+          <result>
+            <message>Step 3 [Given: Configure the SOAP get insurance carriers list] OK: took 69 ms</message>
+            <name>Given: Configure the SOAP get insurance carriers list</name>
+            <order>4</order>
+            <started>12:18:56.330</started>
+            <status>OK</status>
+            <timeTaken>69</timeTaken>
+          </result>
+          <result>
+            <message>Step 4 [Then: Validate the status] OK: took 0 ms</message>
+            <name>Then: Validate the status</name>
+            <order>5</order>
+            <started>12:18:56.403</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 5 [Then: Validate the content] OK: took 6 ms</message>
+            <name>Then: Validate the content</name>
+            <order>6</order>
+            <started>12:18:56.404</started>
+            <status>OK</status>
+            <timeTaken>6</timeTaken>
+          </result>
+          <result>
+            <message>Step 6 [DataSource Loop] OK: took 0 ms
+ -> Data Row 1</message>
+            <name>DataSource Loop</name>
+            <order>7</order>
+            <started>12:18:56.411</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 7 [Setup: getGroupList] OK: took 0 ms</message>
+            <name>Setup: getGroupList</name>
+            <order>8</order>
+            <started>12:18:56.412</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 8 [Given: Configure the SOAP get insurance carriers list] OK: took 93 ms</message>
+            <name>Given: Configure the SOAP get insurance carriers list</name>
+            <order>9</order>
+            <started>12:18:56.413</started>
+            <status>OK</status>
+            <timeTaken>93</timeTaken>
+          </result>
+          <result>
+            <message>Step 9 [Then: Validate the status] OK: took 0 ms</message>
+            <name>Then: Validate the status</name>
+            <order>10</order>
+            <started>12:18:56.507</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 10 [Then: Validate the content] OK: took 5 ms</message>
+            <name>Then: Validate the content</name>
+            <order>11</order>
+            <started>12:18:56.509</started>
+            <status>OK</status>
+            <timeTaken>5</timeTaken>
+          </result>
+          <result>
+            <message>Step 11 [DataSource Loop] OK: took 0 ms
+ -> Data Row 2</message>
+            <name>DataSource Loop</name>
+            <order>12</order>
+            <started>12:18:56.514</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 12 [Setup: getGroupList] OK: took 22 ms</message>
+            <name>Setup: getGroupList</name>
+            <order>13</order>
+            <started>12:18:56.515</started>
+            <status>OK</status>
+            <timeTaken>22</timeTaken>
+          </result>
+          <result>
+            <message>Step 13 [Given: Configure the SOAP get insurance carriers list] OK: took 59 ms</message>
+            <name>Given: Configure the SOAP get insurance carriers list</name>
+            <order>14</order>
+            <started>12:18:56.539</started>
+            <status>OK</status>
+            <timeTaken>59</timeTaken>
+          </result>
+          <result>
+            <message>Step 14 [Then: Validate the status] OK: took 0 ms</message>
+            <name>Then: Validate the status</name>
+            <order>15</order>
+            <started>12:18:56.600</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 15 [Then: Validate the content] OK: took 5 ms</message>
+            <name>Then: Validate the content</name>
+            <order>16</order>
+            <started>12:18:56.602</started>
+            <status>OK</status>
+            <timeTaken>5</timeTaken>
+          </result>
+          <result>
+            <message>Step 16 [DataSource Loop] OK: took 0 ms
+ -> Data Row 3</message>
+            <name>DataSource Loop</name>
+            <order>17</order>
+            <started>12:18:56.608</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 17 [Setup: getGroupList] OK: took 0 ms</message>
+            <name>Setup: getGroupList</name>
+            <order>18</order>
+            <started>12:18:56.609</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 18 [Given: Configure the SOAP get insurance carriers list] OK: took 59 ms</message>
+            <name>Given: Configure the SOAP get insurance carriers list</name>
+            <order>19</order>
+            <started>12:18:56.610</started>
+            <status>OK</status>
+            <timeTaken>59</timeTaken>
+          </result>
+          <result>
+            <message>Step 19 [Then: Validate the status] OK: took 0 ms</message>
+            <name>Then: Validate the status</name>
+            <order>20</order>
+            <started>12:18:56.671</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 20 [Then: Validate the content] OK: took 5 ms</message>
+            <name>Then: Validate the content</name>
+            <order>21</order>
+            <started>12:18:56.673</started>
+            <status>OK</status>
+            <timeTaken>5</timeTaken>
+          </result>
+          <result>
+            <message>Step 21 [DataSource Loop] OK: took 0 ms
+ -> Data Row 4</message>
+            <name>DataSource Loop</name>
+            <order>22</order>
+            <started>12:18:56.680</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+        </testStepResults>
+        <testStepParameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource: Condition values</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getGroupList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get insurance carriers list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the content</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getGroupList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get insurance carriers list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the content</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getGroupList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get insurance carriers list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the content</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getGroupList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get insurance carriers list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the content</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop</testStepName>
+          </parameters>
+        </testStepParameters>
+        <failedTestSteps/>
+      </testCase>
+      <testCase>
+        <startTime>12:18:56</startTime>
+        <status>FINISHED</status>
+        <testCaseId>f5e68808-d1fb-4168-8e7e-ed99bc7f6bac</testCaseId>
+        <testCaseName>getGroupList</testCaseName>
+        <timeTaken>760</timeTaken>
+        <testStepResults>
+          <result>
+            <message>Step 1 [DataSource: Condition values] OK: took 13 ms</message>
+            <name>DataSource: Condition values</name>
+            <order>2</order>
+            <started>12:18:56.817</started>
+            <status>OK</status>
+            <timeTaken>13</timeTaken>
+          </result>
+          <result>
+            <message>Step 2 [Setup: getGroupList] OK: took 23 ms</message>
+            <name>Setup: getGroupList</name>
+            <order>3</order>
+            <started>12:18:56.832</started>
+            <status>OK</status>
+            <timeTaken>23</timeTaken>
+          </result>
+          <result>
+            <message>Step 3 [Given: Configure the SOAP get group list] OK: took 177 ms</message>
+            <name>Given: Configure the SOAP get group list</name>
+            <order>4</order>
+            <started>12:18:56.858</started>
+            <status>OK</status>
+            <timeTaken>177</timeTaken>
+          </result>
+          <result>
+            <message>Step 4 [Then: Validate the status] OK: took 1 ms</message>
+            <name>Then: Validate the status</name>
+            <order>5</order>
+            <started>12:18:57.037</started>
+            <status>OK</status>
+            <timeTaken>1</timeTaken>
+          </result>
+          <result>
+            <message>Step 5 [Then: Validate the content] OK: took 48 ms</message>
+            <name>Then: Validate the content</name>
+            <order>6</order>
+            <started>12:18:57.039</started>
+            <status>OK</status>
+            <timeTaken>48</timeTaken>
+          </result>
+          <result>
+            <message>Step 6 [DataSource Loop] OK: took 0 ms
+ -> Data Row 1</message>
+            <name>DataSource Loop</name>
+            <order>7</order>
+            <started>12:18:57.088</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 7 [Setup: getGroupList] OK: took 0 ms</message>
+            <name>Setup: getGroupList</name>
+            <order>8</order>
+            <started>12:18:57.089</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 8 [Given: Configure the SOAP get group list] OK: took 130 ms</message>
+            <name>Given: Configure the SOAP get group list</name>
+            <order>9</order>
+            <started>12:18:57.090</started>
+            <status>OK</status>
+            <timeTaken>130</timeTaken>
+          </result>
+          <result>
+            <message>Step 9 [Then: Validate the status] OK: took 1 ms</message>
+            <name>Then: Validate the status</name>
+            <order>10</order>
+            <started>12:18:57.222</started>
+            <status>OK</status>
+            <timeTaken>1</timeTaken>
+          </result>
+          <result>
+            <message>Step 10 [Then: Validate the content] OK: took 44 ms</message>
+            <name>Then: Validate the content</name>
+            <order>11</order>
+            <started>12:18:57.224</started>
+            <status>OK</status>
+            <timeTaken>44</timeTaken>
+          </result>
+          <result>
+            <message>Step 11 [DataSource Loop] OK: took 0 ms
+ -> Data Row 2</message>
+            <name>DataSource Loop</name>
+            <order>12</order>
+            <started>12:18:57.269</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 12 [Setup: getGroupList] OK: took 17 ms</message>
+            <name>Setup: getGroupList</name>
+            <order>13</order>
+            <started>12:18:57.269</started>
+            <status>OK</status>
+            <timeTaken>17</timeTaken>
+          </result>
+          <result>
+            <message>Step 13 [Given: Configure the SOAP get group list] OK: took 94 ms</message>
+            <name>Given: Configure the SOAP get group list</name>
+            <order>14</order>
+            <started>12:18:57.289</started>
+            <status>OK</status>
+            <timeTaken>94</timeTaken>
+          </result>
+          <result>
+            <message>Step 14 [Then: Validate the status] OK: took 1 ms</message>
+            <name>Then: Validate the status</name>
+            <order>15</order>
+            <started>12:18:57.385</started>
+            <status>OK</status>
+            <timeTaken>1</timeTaken>
+          </result>
+          <result>
+            <message>Step 15 [Then: Validate the content] OK: took 52 ms</message>
+            <name>Then: Validate the content</name>
+            <order>16</order>
+            <started>12:18:57.387</started>
+            <status>OK</status>
+            <timeTaken>52</timeTaken>
+          </result>
+          <result>
+            <message>Step 16 [DataSource Loop] OK: took 0 ms
+ -> Data Row 3</message>
+            <name>DataSource Loop</name>
+            <order>17</order>
+            <started>12:18:57.440</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 17 [Setup: getGroupList] OK: took 0 ms</message>
+            <name>Setup: getGroupList</name>
+            <order>18</order>
+            <started>12:18:57.442</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+          <result>
+            <message>Step 18 [Given: Configure the SOAP get group list] OK: took 98 ms</message>
+            <name>Given: Configure the SOAP get group list</name>
+            <order>19</order>
+            <started>12:18:57.443</started>
+            <status>OK</status>
+            <timeTaken>98</timeTaken>
+          </result>
+          <result>
+            <message>Step 19 [Then: Validate the status] OK: took 1 ms</message>
+            <name>Then: Validate the status</name>
+            <order>20</order>
+            <started>12:18:57.543</started>
+            <status>OK</status>
+            <timeTaken>1</timeTaken>
+          </result>
+          <result>
+            <message>Step 20 [Then: Validate the content] OK: took 60 ms</message>
+            <name>Then: Validate the content</name>
+            <order>21</order>
+            <started>12:18:57.546</started>
+            <status>OK</status>
+            <timeTaken>60</timeTaken>
+          </result>
+          <result>
+            <message>Step 21 [DataSource Loop] OK: took 0 ms
+ -> Data Row 4</message>
+            <name>DataSource Loop</name>
+            <order>22</order>
+            <started>12:18:57.608</started>
+            <status>OK</status>
+            <timeTaken>0</timeTaken>
+          </result>
+        </testStepResults>
+        <testStepParameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource: Condition values</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getGroupList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get group list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the content</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getGroupList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get group list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the content</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getGroupList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get group list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the content</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Setup: getGroupList</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/soap_request_step.png</iconPath>
+            <testStepName>Given: Configure the SOAP get group list</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the status</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/groovy_script_step.png</iconPath>
+            <testStepName>Then: Validate the content</testStepName>
+          </parameters>
+          <parameters>
+            <iconPath>/teststeps.gif</iconPath>
+            <testStepName>DataSource Loop</testStepName>
+          </parameters>
+        </testStepParameters>
+        <failedTestSteps/>
+      </testCase>
+    </testRunnerResults>
+  </testSuite>
+</testSuiteResults>
