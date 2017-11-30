@@ -27,6 +27,9 @@ public class DOM_Parser {
 	private DocumentBuilder dBuilder;
 	private Document doc;
 	private ArrayList<TestSuite> result;
+	private ArrayList<String> testSuiteStatusList;
+	private ArrayList<ArrayList<String>> testCaseResultStatusList;
+	private ArrayList<ArrayList<ArrayList<String>>> testCaseResultStepStatusList;
 	
 	public DOM_Parser( FileRepository inputRepository ) throws ParserConfigurationException, SAXException, IOException {
 		this.inputFile = new File(inputRepository.getInputFullFilePath());
@@ -35,6 +38,9 @@ public class DOM_Parser {
 		this.doc = dBuilder.parse(inputFile);
 		this.doc.getDocumentElement().normalize();
 		this.result = new ArrayList<TestSuite>();
+		this.testSuiteStatusList = new ArrayList<String>();
+		this.testCaseResultStatusList = new ArrayList<ArrayList<String>>();
+		this.testCaseResultStepStatusList = new ArrayList<ArrayList<ArrayList<String>>>();
 	}
 	
 	public ArrayList<Node> makeNodeArraylist(NodeList nList){
@@ -99,7 +105,6 @@ public class DOM_Parser {
 					
 				}
 			
-
 		}
 		
 		System.out.println("< FOUND EQUAL INDEX > : " + result);
@@ -275,13 +280,110 @@ public class DOM_Parser {
 	}
 	
 	
-	public ArrayList<String> getTestSuiteValidationStatus() {
+	public void validateTestSuiteStatus() {
 		
-		ArrayList<String> testCaseValidStatus = new ArrayList<String>();
+		int failCounter = 0;
 		
-		return testCaseValidStatus;
+		for (int i = 0 ; i < this.result.size() ; i ++){
+			
+			for (int j = 0 ; j < this.result.get(i).getTestRunnerResults().size() ; j ++){
+				
+				String status = this.result.get(i).getTestRunnerResults().get(j).getStatus();
+				
+				if (status.equalsIgnoreCase("failed"))
+					failCounter++;
+				
+			}
+			
+			if( failCounter > 0){				
+				testSuiteStatusList.add("FAILED");
+			} else {
+				testSuiteStatusList.add("SUCCESS");
+			}
+			
+			failCounter = 0;
+		}
+		
 	}
 
+	
+	public void validateTestCaseStatus() {
+	
+		int failCounter = 0;
+		
+		for (int i = 0 ; i < this.result.size() ; i ++){
+		
+			testCaseResultStatusList.add(new ArrayList<String>());
+			
+			for (int j = 0 ; j < this.result.get(i).getTestRunnerResults().size() ; j ++){
+		
+				String status = this.result.get(i).getTestRunnerResults().get(j).getStatus();
+				
+				if (status.equalsIgnoreCase("failed"))
+					failCounter++;
+				
+				if ( failCounter > 0 ){				
+					testCaseResultStatusList.get(i).add("FAILED");
+				} else {
+					testCaseResultStatusList.get(i).add("SUCCESS");
+				}
+				
+				failCounter = 0;
+				
+			}
+			
+		}
+		
+	}
+	
+	
+	public void validateTestCaseStepStatus() {
+		
+		int failCounter = 0;
+		
+		for (int i = 0 ; i < this.result.size() ; i ++){
+		
+			testCaseResultStepStatusList.add(new ArrayList<ArrayList<String>>());
+			
+			for (int j = 0 ; j < this.result.get(i).getTestRunnerResults().size() ; j ++){
+		
+				testCaseResultStepStatusList.get(i).add(new ArrayList<String>());
+				
+				for (int k = 0 ; k < this.result.get(i).getTestRunnerResults().get(j).getTestStepResults().size() ; k ++){
+					String status = this.result.get(i).getTestRunnerResults().get(j).getTestStepResults().get(k).getStatus();
+					
+					if (status.equalsIgnoreCase("failed"))
+						failCounter++;
+					
+					if ( failCounter > 0 ){				
+						testCaseResultStepStatusList.get(i).get(j).add("FAILED");
+					} else {
+						testCaseResultStepStatusList.get(i).get(j).add("SUCCESS");
+					}
+					
+					failCounter = 0;
+				}
+				
+			}
+			
+		}
+		
+	}
+	
+	
+	public ArrayList<String> getTestSuiteStatus(){
+		return this.testSuiteStatusList;
+	}
+	
+	public ArrayList<ArrayList<String>> getTestCaseStatus(){	
+		return this.testCaseResultStatusList;
+	}
+
+	public ArrayList<ArrayList<ArrayList<String>>> getTestCaseStepStatus(){	
+		return this.testCaseResultStepStatusList;
+	}
+
+	
 }
 	
 	

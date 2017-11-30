@@ -19,6 +19,9 @@ public class ExcelFileWriter {
 	private String outputFileName;
 	private String outputFileFullPath;
 	private ArrayList<TestSuite> currTestSuite;
+	private ArrayList<String> currTestSuiteStatus;
+	private ArrayList<ArrayList<String>> currTestCaseStatus;
+	private ArrayList<ArrayList<ArrayList<String>>> currTestCaseStepStatus;
 	private XSSFWorkbook currWorkbook;
 	private XSSFSheet currSheet;
 	
@@ -27,49 +30,22 @@ public class ExcelFileWriter {
 		this.outputFileName = outputFileName;
 		this.outputFileFullPath = this.outputFilePath + this.outputFileName;
 		this.currTestSuite = outputTestSuite.getTestSuiteList();
+		this.currTestSuiteStatus = outputTestSuite.getTestSuiteStatus();
+		this.currTestCaseStatus = outputTestSuite.getTestCaseStatus();
+		this.currTestCaseStepStatus = outputTestSuite.getTestCaseStepStatus();
 		this.currWorkbook = new XSSFWorkbook();
 	}
 	
 	public void WriteFile(  ) {
 		
-		createSummarySheet();
-//		createDetailedSheet();
+		createTestSuiteSummarySheet();
+		createTestSuiteDetailedSheet();
+		createTestCaseDetailedSheet();
 //		createFailedSheet();
-		/*
-		 Object[][] datatypes = {
-	                {"Datatype", "Type", "Size(in bytes)"},
-	                {"int", "Primitive", 2},
-	                {"float", "Primitive", 4},
-	                {"double", "Primitive", 8},
-	                {"char", "Primitive", 1},
-	                {"String", "Non-Primitive", "No fixed size"}
-	        };
-
-	        int rowNum = 0;
-	        System.out.println("Creating excel");
-
-	        for (Object[] datatype : datatypes) {
-	            Row row = currSheet.createRow(rowNum++);
-	            int colNum = 0;
-	            for (Object field : datatype) {
-	                Cell cell = row.createCell(colNum++);
-	                if (field instanceof String) {
-	                    cell.setCellValue((String) field);
-	                } else if (field instanceof Integer) {
-	                    cell.setCellValue((Integer) field);
-	                }
-	            }
-	        }
-*/
-		
-//			Row row = currSheet.createRow(0);
-//			Cell cell = row.createCell(0);
-			
-//			cell.setCellValue("Peanuts");
-			
 		
 	        try {
 	            FileOutputStream outputStream = new FileOutputStream(outputFileFullPath);
+	          
 	            currWorkbook.write(outputStream);
 	            currWorkbook.close();
 	        } catch (FileNotFoundException e) {
@@ -81,50 +57,127 @@ public class ExcelFileWriter {
 	        System.out.println("Done");
 	        
 	 }
-	
-	public void createSummarySheet( ) {
-		
-		this.currSheet = currWorkbook.createSheet("Summary");
-		int startRowNum = 1;
-		final String [] headerList = {"TEST SUITE","TEST CASE" , "STATUS"};
-		
-		Row row = currSheet.createRow(startRowNum);
-		
-		Row rowData = currSheet.createRow(startRowNum + 1);
-		
-		System.out.println("Length of DOM SUITE : " + currTestSuite.size());
-		
-		for (int i = 0 ; i < headerList.length ; i ++){
-			
-			//Creating header for excel
-			Cell cell = row.createCell(i);
-			cell.setCellValue(headerList[i]);
-			
-			//Creating data for excel
-			Cell testSuiteCell = rowData.createCell(0);
-			testSuiteCell.setCellValue(currTestSuite.get(0).getTestSuiteName());
 
-			Cell testCaseCell = rowData.createCell(1);
-			testCaseCell.setCellValue(currTestSuite.get(0).getTestRunnerResults().get(0).getTestCaseName());
+	public void createTestSuiteSummarySheet( ) {
 		
+		Cell testSuiteCell;
+		Cell testCaseStatus;
+		final String [] headerList = {"TEST SUITE", "STATUS"};
+		this.currSheet = currWorkbook.createSheet("Test Suite - Summary");
+		
+		int rowNumber = 2;
+		Row rowData = currSheet.createRow(rowNumber);		
+		
+		//Create Excel Header
+		createExcelHeader(this.currSheet,headerList,1);
+		
+		//Create Excel Data
+		for (int tcSuiteIndex = 0 ; tcSuiteIndex < currTestSuite.size() ; tcSuiteIndex++){
+			
+				rowNumber ++;
+				rowData = currSheet.createRow(rowNumber);
+				testSuiteCell = rowData.createCell(0);
+				testCaseStatus = rowData.createCell(1);
+				
+				testSuiteCell.setCellValue(currTestSuite.get(tcSuiteIndex).getTestSuiteName());
+				testCaseStatus.setCellValue(currTestSuiteStatus.get(tcSuiteIndex));
+									
 		}
+		
+		resizeAllColumnFromSheet (currSheet,headerList.length);
+		
+	 }
+	
+	public void createTestSuiteDetailedSheet( ) {
+		
+		Cell testSuiteCell;
+		Cell testCaseCell;
+		Cell testCaseStatus;
+		final String [] headerList = {"TEST SUITE","TEST CASE" , "STATUS"};
+		this.currSheet = currWorkbook.createSheet("Test Suite - Details");
+		
+		int rowNumber = 2;
+		Row rowData = currSheet.createRow(rowNumber);		
+		
+		//Create Excel Header
+		createExcelHeader(this.currSheet,headerList,1);
+		
+		//Create Excel Data
+		for (int tcSuiteIndex = 0 ; tcSuiteIndex < currTestSuite.size() ; tcSuiteIndex++){
+			
+			for (int tcCaseIndex = 0 ; tcCaseIndex < currTestSuite.get(tcSuiteIndex).getTestRunnerResults().size() ; tcCaseIndex ++) {
+				
+				rowNumber ++;
+				rowData = currSheet.createRow(rowNumber);
+				testSuiteCell = rowData.createCell(0);
+				testCaseCell = rowData.createCell(1);
+				testCaseStatus = rowData.createCell(2);
+				
+				testSuiteCell.setCellValue(currTestSuite.get(tcSuiteIndex).getTestSuiteName());
+				testCaseCell.setCellValue(currTestSuite.get(tcSuiteIndex).getTestRunnerResults().get(tcCaseIndex).getTestCaseName());
+				testCaseStatus.setCellValue(currTestCaseStatus.get(tcSuiteIndex).get(tcCaseIndex));
+									
+			}
+			
+			rowNumber ++; //Seperator
+
+		}
+		
+		resizeAllColumnFromSheet (currSheet,headerList.length);
 
 	 }
 	
-	public void createDetailedSheet( ) {
+	public void createTestCaseDetailedSheet( ) {
 		
-		this.currSheet = currWorkbook.createSheet("Details");
-		final String [] headerList = {"TEST SUITE"," TEST CASE" , "TEST STEP" };
+		Cell testSuiteCell;
+		Cell testCaseCell;
+		Cell testStepCell;
+		Cell testCaseStatus;
 		
-		Row row = currSheet.createRow(0);
-		Cell cell = row.createCell(0);
-		cell.setCellValue("Snoopy");
+		this.currSheet = currWorkbook.createSheet("Test Case - Details");
+		final String [] headerList = {"TEST SUITE"," TEST CASE" , "TEST STEP" , "STATUS" };
+		
+		int rowNumber = 2;
+		Row rowData = currSheet.createRow(rowNumber);		
+		
+		//Create Excel Header
+		createExcelHeader(this.currSheet,headerList,1);
+		
+		//Create Excel Data
+		for (int tcSuiteIndex = 0 ; tcSuiteIndex < currTestSuite.size() ; tcSuiteIndex++){
+					
+			for (int tcCaseIndex = 0 ; tcCaseIndex < currTestSuite.get(tcSuiteIndex).getTestRunnerResults().size() ; tcCaseIndex ++) {
+
+			System.out.println("detected size tests steps : " + currTestSuite.get(tcSuiteIndex).getTestRunnerResults().get(tcCaseIndex).getTestStepResults().size());
+						
+				for (int tcStepResult = 0 ; tcStepResult < currTestSuite.get(tcSuiteIndex).getTestRunnerResults().get(tcCaseIndex).getTestStepResults().size() ; tcStepResult++){
+					
+					rowNumber ++;
+					rowData = currSheet.createRow(rowNumber);
+					testSuiteCell = rowData.createCell(0);
+					testCaseCell = rowData.createCell(1);
+					testStepCell = rowData.createCell(2);
+					testCaseStatus = rowData.createCell(3);
+					
+					testSuiteCell.setCellValue(currTestSuite.get(tcSuiteIndex).getTestSuiteName());
+					testCaseCell.setCellValue(currTestSuite.get(tcSuiteIndex).getTestRunnerResults().get(tcCaseIndex).getTestCaseName());
+					testStepCell.setCellValue(currTestSuite.get(tcSuiteIndex).getTestRunnerResults().get(tcCaseIndex).getTestStepResults().get(tcStepResult).getMessage());
+					testCaseStatus.setCellValue(currTestCaseStepStatus.get(tcSuiteIndex).get(tcCaseIndex).get(tcStepResult));
+				}
+											
+			 }
+					
+			 rowNumber ++; //Seperator
+
+		}
+		
+		resizeAllColumnFromSheet (currSheet,headerList.length);
 		
 	 }
 	
 	public void createFailedSheet( ) {
 		
-		this.currSheet = currWorkbook.createSheet("Fails");
+		this.currSheet = currWorkbook.createSheet("Failures");
 		final String [] headerList = {"TEST SUITE"," TEST CASE" , "TEST STEP"};
 		
 		Row row = currSheet.createRow(0);
@@ -132,6 +185,24 @@ public class ExcelFileWriter {
 		cell.setCellValue("Catomatic");
 
 	 }
+	
+	public void resizeAllColumnFromSheet( XSSFSheet sheet , int numberOfColumns ){
+		
+		for (int i = 0 ; i < numberOfColumns ; i++ ){
+			sheet.autoSizeColumn(i);
+		}
+
+	}
+	
+	public void createExcelHeader( XSSFSheet sheet , String [] headerList , int rowStartPosition){
+		
+		Row rowData = sheet.createRow(rowStartPosition);
+		
+		for (int headerIndex = 0 ; headerIndex < headerList.length ; headerIndex ++){
+			Cell cell = rowData.createCell(headerIndex);
+			cell.setCellValue(headerList[headerIndex]);
+		}
+	}
 	
 	
 }

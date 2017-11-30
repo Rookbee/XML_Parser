@@ -9,7 +9,7 @@ public class mainProgram {
 		
 		FileRepository currentRepository;
 		ExcelFileWriter outputRepository;
-		
+		 
 		DOM_Parser bidon;
 		
 		try {
@@ -21,8 +21,12 @@ public class mainProgram {
 			bidon.createTestCases();
 			bidon.createTestStepResults();
 			
-//			outputRepository = new ExcelFileWriter(bidon,"C:\\Data\\SOAP_Results\\","caca1.xlsx");
-//			outputRepository.WriteFile();
+			bidon.validateTestCaseStatus();
+			bidon.validateTestSuiteStatus();
+			bidon.validateTestCaseStepStatus();
+			
+			outputRepository = new ExcelFileWriter(bidon,"C:\\\\Data\\\\SOAP_Results\\\\","caca1.xlsx");
+			outputRepository.WriteFile();
 			
 		} catch (Exception e) {
 			
